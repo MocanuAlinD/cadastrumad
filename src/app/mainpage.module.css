@@ -1,0 +1,23 @@
+.imageContainer {
+  /* min-height: 20rem; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url("../../public/bgmain1.jpeg");
+  background-position: center;
+  .text {
+    background-color: #00000033;
+    backdrop-filter: blur(3px);
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    outline: 3px solid #00000033;
+    outline-offset: 0.25rem;
+    color: white;
+    font-weight: 400;
+    font-size: clamp(0.8rem, 3vw, 1.2rem);
+    margin-bottom: 2rem;
+    width: fit-content ;
+    max-width: 80%;
+    height: 100%;
+  }
+}

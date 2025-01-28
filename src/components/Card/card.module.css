@@ -1,0 +1,30 @@
+.cardContainer{
+    width: min(80%,30rem);
+    margin-inline: auto;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    margin-block: 1rem;
+    border-right: 1px solid #ffffff88;
+    border-bottom: 1px solid #ffffff88;
+    background-image: linear-gradient(to bottom right, #434343 0%, black 100%);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    & > h3{
+        font-size: clamp(1rem,4vw,1.5rem);
+        font-style: italic;
+        text-decoration: underline;
+        text-underline-offset: 8px;
+        text-decoration-thickness: 2px;
+        margin-bottom: 1rem;
+    }
+    & > p{
+        font-size: clamp(0.5rem, 3vw, 1rem);
+        font-weight: 400;
+    }
+    & > a{
+        font-size: clamp(0.7rem, 3vw, 1rem);
+        border: 1px solid #ffffff88;
+    }
+}

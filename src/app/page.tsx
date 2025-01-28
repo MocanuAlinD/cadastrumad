@@ -1,101 +1,50 @@
-import Image from "next/image";
+// import Image from "next/image";
+// import profilePic from "../../public/bgmain.jpeg";
+import Card from "@/components/Card";
+import styles from "./mainpage.module.css";
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+  const cadastruContent =
+    "Cadastrul este necesar pentru identificarea și evidența proprietăților, stabilirea limitelor, vânzarea, cumpărarea sau ipotecarea imobilelor. Este esențial pentru obținerea autorizațiilor de construcție, accesarea creditelor și dezvoltarea infrastructurii, asigurând siguranță juridică proprietarilor.";
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+  const intarusareContent =
+    "Intărușarea terenurilor este necesară pentru stabilirea exactă a limitelor unei proprietăți, evitarea disputelor cu vecinii și respectarea planurilor de construcție. Asigură o delimitare precisă a terenului, fiind esențială în cadastru, urbanism și tranzacții imobiliare.";
+
+  const planSituatieContent =
+    "Planul de situație în topografie este necesar pentru reprezentarea detaliată a terenului, construcțiilor și elementelor naturale, fiind esențial în proiectare, urbanism și cadastru. Asigură precizie în execuția lucrărilor și respectarea limitelor proprietății.";
+
+  const dezContent =
+    "Dezmembrarea și alipirea în cadastru sunt necesare pentru modificarea suprafeței terenurilor, fie prin împărțirea unei proprietăți în loturi mai mici, fie prin unirea mai multor loturi într-unul singur. Aceste operațiuni sunt esențiale în vânzări, moșteniri sau dezvoltări imobiliare.";
+
+  const profileContent = "Profilele și curbele de nivel în topografie sunt necesare pentru reprezentarea reliefului unui teren, ajutând la proiectarea construcțiilor, drumurilor și rețelelor edilitare. Ele oferă informații precise despre diferențele de altitudine și pantele terenului, esențiale în planificare."
+
+  const model3DContent = "Măsurătorile 3D ale construcțiilor și terenurilor sunt utile pentru obținerea unor modele precise, necesare în proiectare, renovare, monitorizare și documentare. Acestea asigură detalii exacte despre forme, dimensiuni și deformări, fiind esențiale în construcții și cadastru."
+  return (
+    <div className="w-full">
+      <main className="min-h-full flex flex-col">
+        <div className="card flex flex-col grow">
+          <div
+            className={
+              styles.imageContainer + " min-h-[10rem] sm:min-h-[20rem]"
+            }
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
+            <div className={styles.text}>
+              Servicii cadastru si intabulare Constanta
+            </div>
+          </div>
+          <div className='flex flex-wrap justify-center p-2'>
+            <Card title="Cadastru" content={cadastruContent} />
+            <Card title="Intărușare" content={intarusareContent} />
+            <Card title="Plan de situație" content={planSituatieContent} />
+            <Card title="Dezmembrare/alipire" content={dezContent} />
+            <Card title="Profile/curbe de nivel" content={profileContent} />
+            <Card title="Modele 3D" content={model3DContent} />
+          </div>
+          <a className="bg-slate-400 w-fit mx-auto my-4">
+            Vezi toate serviciile
           </a>
         </div>
       </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
     </div>
   );
 }
