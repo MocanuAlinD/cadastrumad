@@ -5,6 +5,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --cardWidth: min(90%,30rem);
 }
 
 @media (prefers-color-scheme: dark) {
