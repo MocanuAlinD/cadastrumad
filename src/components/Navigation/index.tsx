@@ -8,9 +8,9 @@ import Link from "next/link";
 
 const Navigation = () => {
   return (
-    <div className={styles.topContainer}>
+    <div className={styles.topContainer + ' px-4 md:px-16'}>
       <h1 className={styles.titleLogo}>Cadastru</h1>
-      <ul className={styles.navContainer + " hidden sm:flex"}>
+      <ul className={styles.navContainer + " hidden md:flex"}>
         <li className={styles.navItem}>
           <Link href="/">Acasă</Link>
         </li>

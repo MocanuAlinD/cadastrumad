@@ -1,35 +1,54 @@
 .topContainer {
   width: var(--cardWidth);
   perspective: 400px;
+  cursor: pointer;
 }
 
 .cardContainer {
   width: var(--cardWidth);
   margin-inline: auto;
   padding: 1rem;
-  border-radius: 0.75rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
   margin-block: 1rem;
-  border-right: 1px solid #ffffff88;
-  border-bottom: 1px solid #ffffff88;
-  background-image: linear-gradient(to bottom right, #434343 0%, black 100%);
+
+  /* border-right: 1px solid #ffffff88; */
+  /* border-bottom: 1px solid #ffffff88; */
+  /* background-image: linear-gradient(to bottom right, #434343 0%, black 100%); */
+  background-image: linear-gradient(to bottom right, #ffffff 0%, #aaa 100%);
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
   transition: all 0.35s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  &::before {
+    content: "";
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    right: 20%;
+    bottom: -1rem;
+    border-radius: 50%;
+    background-color: var(--background);
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    transition: all 0.35s ease-in-out 0.25s;
+  }
 
   & > h3 {
     font-size: clamp(0.8rem, 3vw, 1.5rem);
     font-style: italic;
-    text-decoration: underline;
-    text-underline-offset: 8px;
-    text-decoration-thickness: 2px;
-    margin-bottom: 1rem;
-    color: #ee6c4d;
+    color: var(--background);
+    width: 100%;
+    text-align: center;
+    transition: all 0.35s ease-in-out;
   }
   & > p {
     font-size: clamp(0.5rem, 3vw, 1rem);
     font-weight: 400;
+    color: var(--foregroundgray);
   }
   & > a {
     font-size: clamp(0.7rem, 3vw, 1rem);
@@ -40,6 +59,23 @@
 @media screen and (width > 768px) {
   .topContainer:hover .cardContainer {
     transform: rotateX(15deg);
-    box-shadow: 0 -20px 40px #ffffff88;
+    /* box-shadow: 0 -20px 40px #ffffff88; */
+    box-shadow: 30px -50px 40px 0px #ffffff55;
+    box-shadow: 0px -60px 60px 20px #ffffff55;
+  }
+  .topContainer:hover h3 {
+    color: var(--orange);
+  }
+  .topContainer:hover .cardContainer::before {
+    /* transform: translateY(-100%); */
+    /* bottom: -1rem; */
+    right: 0;
+    width: 100%;
+    height: 1.5rem;
+    border-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: var(--orange);
+
   }
 }

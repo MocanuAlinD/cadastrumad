@@ -1,17 +1,12 @@
 .layoutTopContainer {
-  /* border: 5px solid red; */
-  /* background-color: #90e0ef; */
-  background-color: #403D39;
+  background-color: var(--foreground);
   display: flex;
   flex-direction: column;
   min-height: 100svh;
   width: min(100%, 130rem);
   margin-inline: auto;
   & > .layoutNavigation {
-    /* border: 1px solid red; */
-    background-color: #252422;
     font-weight: 400;
-    /* letter-spacing: 2px; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -22,9 +17,7 @@
     z-index: 99999;
   }
   & > .layoutFooter {
-    /* border: 1px solid coral; */
     border-top: 1px solid #ffffff33;
-    background-color: #252422;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -1,30 +1,31 @@
-.topContainer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    max-width: 90rem;
-    padding-inline: 1rem;
-    overflow-x: hidden;
+.topContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /* max-width: 90rem; */
+  overflow-x: hidden;
+  background-color: var(--foreground);
+  z-index: -1;
+  height: 100%;
 }
 
-.titleLogo{
-    font-size: clamp(1rem, 4vw,2rem);
+.titleLogo {
+  font-size: clamp(1rem, 4vw, 2rem);
+  color: var(--background);
 }
 
-
-
-.navContainer{
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    .navItem{
-        color: lavenderblush;
-        cursor: pointer;
-        transition: all .35s ease-in-out;
-        font-size: clamp(0.6rem, 4vw, 1rem);
-    }
+.navContainer {
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  .navItem {
+    color: var(--background);
+    cursor: pointer;
+    transition: all 0.35s ease-in-out;
+    font-size: clamp(0.6rem, 4vw, 1rem);
+  }
 }
-.navContainer:has(.navItem:hover) :not(:hover){
-    color: slategray;
+.navContainer:has(.navItem:hover) :not(:hover) {
+  color: slategray;
 }

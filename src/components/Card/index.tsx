@@ -13,7 +13,7 @@ const Card = ({
       <div className={ styles.cardContainer + " min-h-[10rem] sm:min-h-[20rem]" } >
         <h3>{title}</h3>
         {/* <p> {content.length < 310 ? content : content.substring(0, 300) + " ....."} </p> */}
-        <p>{content}</p>
+        <p>&emsp;&emsp;{content}</p>
       </div>
     </div>
   );
