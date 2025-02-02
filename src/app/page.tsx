@@ -22,18 +22,23 @@ export default function Home() {
 
   const model3DContent =
     "Măsurătorile 3D ale construcțiilor și terenurilor sunt utile pentru obținerea unor modele precise, necesare în proiectare, renovare, monitorizare și documentare. Acestea asigură detalii exacte despre forme, dimensiuni și deformări, fiind esențiale în construcții și cadastru.";
+
+  const santierContent =
+    "Trasările și măsurătorile de șantier sunt esențiale pentru asigurarea construcției conform proiectului. Acestea sunt necesare pentru alinierea exactă a fundațiilor, pereților, drumurilor și altor structuri, prevenind erorile costisitoare și asigurând o execuție precisă și eficientă a lucrărilor.";
   return (
     <div className="w-full">
       <main className="min-h-full flex flex-col">
-        <div className="card flex flex-col grow transform-3d">
-          <div className={ styles.imageContainer + " min-h-[10rem] sm:min-h-[20rem]" } >
+        <div className="flex flex-col grow transform-3d">
+
+          <section className={ styles.imageContainer + " min-h-[10rem] sm:min-h-[20rem]" } >
             <div className={styles.text}>
               Servicii cadastru și intabulare Constanța
             </div>
-          </div>
-          <div className={ styles.info + " flex flex-col items-center justify-evenly gap-4 py-12 md:min-h-[40rem]" } >
-            <h3 className="text-md md:text-4xl font-extrabold">
-              +2300 PROIECTE
+          </section>
+
+          <section className={ styles.info + " flex flex-col items-center justify-evenly gap-4 py-12 md:min-h-[40rem]" }>
+            <h3 className="text-md md:text-4xl font-extrabold text-center">
+              +20 ANI <br /> +2300 PROIECTE
             </h3>
             <p className=" max-w-[85%] md:max-w-[50%] leading-6 md:leading-8 text-sm md:text-xl font-normal">
               &emsp;&emsp; Cu o experiență de peste 20 de ani în domeniul
@@ -43,18 +48,37 @@ export default function Home() {
               fiecărui proiect, asigurând soluții precise și eficiente pentru
               nevoile dumneavoastră.
             </p>
+          </section>
+          
+          <section>
+            <h4 className="underline underline-offset-4 text-center text-md sm:text-2xl mb-8 mt-12">
+              Vă stăm la dispoziție cu următoarele:
+            </h4>
+            <div className="flex flex-wrap justify-center pb-12">
+              <Card title="Cadastru" content={cadastruContent} />
+              <Card title="Dezmembrare/alipire" content={dezContent} />
+              <Card title="Intărușare" content={intarusareContent} />
+              <Card
+                title="Măsurători/trasări șantier"
+                content={santierContent}
+              />
+              <Card title="Plan de situație" content={planSituatieContent} />
+              <Card title="Profile/curbe de nivel" content={profileContent} />
+              <Card title="3D" content={model3DContent} />
+            </div>
+          </section>
+
+
+        <section>
+          <div className={ styles.info + " flex flex-col items-center justify-evenly gap-4 py-12 md:min-h-[40rem]" }>
+            <h3 className='text-md md:text-4xl font-extrabold text-center'>
+            CONSULTANȚĂ GRATUITĂ
+            </h3>
+            <p className=" max-w-[85%] md:max-w-[50%] leading-6 md:leading-8 text-sm md:text-xl font-normal">
+            &emsp;&emsp;Oferim consultanță gratuită! Spune-ne cu ce te putem ajuta, iar noi ne ocupăm de restul. Ca să economisești timp și drumuri inutile, ne poți trimite actele pe e-mail sau WhatsApp. Le analizăm rapid, iar în maximum 24 de ore îți oferim toate detaliile necesare: documente suplimentare, costuri, termene de execuție și pașii următori. Abia apoi stabilim împreună o dată convenabilă pentru începerea lucrărilor.
+            </p>
           </div>
-          <h4 className="underline underline-offset-4 text-center text-md sm:text-2xl mb-8 mt-12">
-            Vă stăm la dispoziție cu următoarele:
-          </h4>
-          <div className="flex flex-wrap justify-center pb-12">
-            <Card title="Cadastru" content={cadastruContent} />
-            <Card title="Dezmembrare/alipire" content={dezContent} />
-            <Card title="Intărușare" content={intarusareContent} />
-            <Card title="Plan de situație" content={planSituatieContent} />
-            <Card title="Profile/curbe de nivel" content={profileContent} />
-            <Card title="Modele 3D" content={model3DContent} />
-          </div>
+        </section>
         </div>
       </main>
     </div>

@@ -1,2 +1,46 @@
 Cu o experiență de peste 20 de ani în domeniul cadastrului și peste 2300 de proiecte finalizate cu succes, oferim servicii profesionale caracterizate prin seriozitate, promptitudine și atenție la detalii. Ne dedicăm fiecărui proiect, asigurând soluții precise și eficiente pentru nevoile dumneavoastră.
+====================
+Certificatul energetic este un document oficial care atestă performanța energetică a unei clădiri. Acesta oferă informații despre eficiența energetică a unei locuințe sau clădiri, evaluând consumul de energie pentru încălzire, apă caldă menajeră, ventilație și aer condiționat. Certificatul energetic este obligatoriu în anumite situații și are rolul de a încuraja economisirea energiei și reducerea emisiilor de gaze cu efect de seră.
+
+Certificatul trebuie realizat în următoarele cazuri:
+
+1.Vânzarea sau închirierea unei clădiri: Atunci când o clădire sau un apartament este pus la vânzare sau închiriere, este necesar să fie obținut un certificat energetic. Acesta trebuie să fie prezentat potențialilor cumpărători sau chiriași.
+2.Construirea unei noi clădiri: În momentul finalizării construcției unui imobil nou, acesta trebuie să fie însoțit de un certificat energetic.
+3.Renovarea clădirilor: Dacă se realizează renovări majore care afectează performanța energetică a clădirii (de exemplu, izolație termică, înlocuirea feronerie, instalații etc.), poate fi necesar un certificat energetic actualizat.
+-Certificatul este eliberat de un auditor energetic autorizat și are o valabilitate de 10 ani, cu excepția cazului în care se fac modificări importante care afectează eficiența energetică a clădirii.
+
+
+====================
+
+
+…or create a new repository on the command line
+echo "# cadastrumad" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/MocanuAlinD/cadastrumad.git
+git push -u origin main
+
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/MocanuAlinD/cadastrumad.git
+git branch -M main
+git push -u origin main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -23,3 +23,7 @@ body {
   background: var(--background);
   font-family: Poppins, Arial, Helvetica, sans-serif;
 }
+
+/* *{
+  border: 1px solid red;
+} */
