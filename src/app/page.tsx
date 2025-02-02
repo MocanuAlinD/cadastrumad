@@ -10,7 +10,8 @@ export default function Home() {
   const intarusareContent = "Intărușarea terenurilor este necesară pentru stabilirea exactă a limitelor unei proprietăți, evitarea disputelor cu vecinii și respectarea planurilor de construcție. Asigură o delimitare precisă a terenului, fiind esențială în cadastru, urbanism și tranzacții imobiliare.";
 
   const planSituatieContent =
-    "Planul de situație în topografie este necesar pentru reprezentarea detaliată a terenului, construcțiilor și elementelor naturale, fiind esențial în proiectare, urbanism și cadastru. Asigură precizie în execuția lucrărilor și respectarea limitelor proprietății.";
+    "Planul de situație în cadastru este necesar pentru obținerea autorizațiilor de construire, actualizarea documentațiilor cadastrale, întocmirea proiectelor de urbanism, stabilirea limitelor proprietății și realizarea tranzacțiilor imobiliare. Acesta oferă o reprezentare exactă a terenului și construcțiilor existente.";
+    // "Planul de situație în topografie este necesar pentru reprezentarea detaliată a terenului, construcțiilor și elementelor naturale, fiind esențial în proiectare, urbanism și cadastru. Asigură precizie în execuția lucrărilor și respectarea limitelor proprietății.";
 
   const dezContent =
     "Dezmembrarea și alipirea în cadastru sunt necesare pentru modificarea suprafeței terenurilor, fie prin împărțirea unei proprietăți în loturi mai mici, fie prin unirea mai multor loturi într-unul singur. Aceste operațiuni sunt esențiale în vânzări, moșteniri sau dezvoltări imobiliare.";
@@ -38,9 +39,9 @@ export default function Home() {
           </h4>
           <div className="flex flex-wrap justify-center py-8">
             <Card title="Cadastru" content={cadastruContent} />
+            <Card title="Dezmembrare/alipire" content={dezContent} />
             <Card title="Intărușare" content={intarusareContent} />
             <Card title="Plan de situație" content={planSituatieContent} />
-            <Card title="Dezmembrare/alipire" content={dezContent} />
             <Card title="Profile/curbe de nivel" content={profileContent} />
             <Card title="Modele 3D" content={model3DContent} />
           </div>

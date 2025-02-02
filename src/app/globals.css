@@ -6,7 +6,7 @@
   --background: #ededed;
   --foreground: #012a38;
   --foregroundgray: #012a3888;
-  --cardWidth: min(90%,30rem);
+  --cardWidth: min(90%,25rem);
   --orange: #ee6c4d;
   --gray: #efefef;
 }

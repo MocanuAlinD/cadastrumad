@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "./CustomLayout.module.css";
 import Navigation from "../Navigation";
+import styles from "./CustomLayout.module.css";
 
 const CustomLayout = ({ children }: { children: React.ReactNode }) => {
   // TODO: Make navigation sticky or not thru props
