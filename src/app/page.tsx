@@ -12,7 +12,6 @@ export default function Home() {
 
   const planSituatieContent =
     "Planul de situație în cadastru este necesar pentru obținerea autorizațiilor de construire, actualizarea documentațiilor cadastrale, întocmirea proiectelor de urbanism, stabilirea limitelor proprietății și realizarea tranzacțiilor imobiliare. Acesta oferă o reprezentare exactă a terenului și construcțiilor existente.";
-  // "Planul de situație în topografie este necesar pentru reprezentarea detaliată a terenului, construcțiilor și elementelor naturale, fiind esențial în proiectare, urbanism și cadastru. Asigură precizie în execuția lucrărilor și respectarea limitelor proprietății.";
 
   const dezContent =
     "Dezmembrarea și alipirea în cadastru sunt necesare pentru modificarea suprafeței terenurilor, fie prin împărțirea unei proprietăți în loturi mai mici, fie prin unirea mai multor loturi într-unul singur. Aceste operațiuni sunt esențiale în vânzări, moșteniri sau dezvoltări imobiliare.";
@@ -29,14 +28,22 @@ export default function Home() {
     <div className="w-full">
       <main className="min-h-full flex flex-col">
         <div className="flex flex-col grow transform-3d">
-
-          <section className={ styles.imageContainer + " min-h-[10rem] sm:min-h-[20rem]" } >
+          <section
+            className={
+              styles.imageContainer + " min-h-[10rem] sm:min-h-[20rem]"
+            }
+          >
             <div className={styles.text}>
               Servicii cadastru și intabulare Constanța
             </div>
           </section>
 
-          <section className={ styles.info + " flex flex-col items-center justify-evenly gap-4 py-12 md:min-h-[40rem]" }>
+          <section
+            className={
+              styles.info +
+              " flex flex-col items-center justify-evenly gap-4 py-12 md:min-h-[40rem]"
+            }
+          >
             <h3 className="text-md md:text-4xl font-extrabold text-center">
               +20 ANI <br /> +2300 PROIECTE
             </h3>
@@ -49,7 +56,7 @@ export default function Home() {
               nevoile dumneavoastră.
             </p>
           </section>
-          
+
           <section>
             <h4 className="underline underline-offset-4 text-center text-md sm:text-2xl mb-8 mt-12">
               Vă stăm la dispoziție cu următoarele:
@@ -68,17 +75,28 @@ export default function Home() {
             </div>
           </section>
 
-
-        <section>
-          <div className={ styles.info + " flex flex-col items-center justify-evenly gap-4 py-12 md:min-h-[40rem]" }>
-            <h3 className='text-md md:text-4xl font-extrabold text-center'>
-            CONSULTANȚĂ GRATUITĂ
-            </h3>
-            <p className=" max-w-[85%] md:max-w-[50%] leading-6 md:leading-8 text-sm md:text-xl font-normal">
-            &emsp;&emsp;Oferim consultanță gratuită! Spune-ne cu ce te putem ajuta, iar noi ne ocupăm de restul. Ca să economisești timp și drumuri inutile, ne poți trimite actele pe e-mail sau WhatsApp. Le analizăm rapid, iar în maximum 24 de ore îți oferim toate detaliile necesare: documente suplimentare, costuri, termene de execuție și pașii următori. Abia apoi stabilim împreună o dată convenabilă pentru începerea lucrărilor.
-            </p>
-          </div>
-        </section>
+          <section>
+            <div
+              className={
+                styles.info +
+                " flex flex-col items-center justify-evenly gap-4 py-12 md:min-h-[40rem]"
+              }
+            >
+              <h3 className="text-md md:text-4xl font-extrabold text-center">
+                CONSULTANȚĂ GRATUITĂ
+              </h3>
+              <p className=" max-w-[85%] md:max-w-[50%] leading-6 md:leading-8 text-sm md:text-xl font-normal">
+                &emsp;&emsp;Beneficiezi de consultanță gratuită! Spune-ne cum te
+                putem ajuta, iar noi îți oferim soluția potrivită. Pentru a
+                economisi timp și drumuri inutile, ne poți trimite actele pe
+                email sau WhatsApp. Le analizăm rapid, iar în cel mult 24 de ore
+                îți oferim toate detaliile necesare: acte suplimentare, costuri,
+                termene de execuție. După ce ai toate informațiile, stabilim
+                împreună o dată convenabilă pentru începerea lucrării.
+              </p>
+              <p className="text-sm md:text-xl font-bold w-full text-center">&emsp;&emsp;Simplu, rapid și eficient!</p>
+            </div>
+          </section>
         </div>
       </main>
     </div>

@@ -34,13 +34,15 @@
   & > h3 {
     font-size: clamp(0.8rem, 3vw, 1.5rem);
     font-style: italic;
+    font-weight: 600;
+    letter-spacing: 1px;
     color: var(--background);
     width: 100%;
     text-align: center;
     transition: all 0.35s ease-in-out;
   }
   & > p {
-    font-size: clamp(0.5rem, 3vw, 1rem);
+    font-size: clamp(0.75rem, 3vw, 1rem);
     font-weight: 400;
     color: var(--foregroundgray);
   }

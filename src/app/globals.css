@@ -5,7 +5,7 @@
 :root {
   --background: #ededed;
   --foreground: #012a38;
-  --foregroundgray: #012a3888;
+  --foregroundgray: #012a38cc;
   --cardWidth: min(90%,25rem);
   --orange: #ee6c4d;
   --gray: #efefef;
@@ -23,7 +23,3 @@ body {
   background: var(--background);
   font-family: Poppins, Arial, Helvetica, sans-serif;
 }
-
-/* *{
-  border: 1px solid red;
-} */
