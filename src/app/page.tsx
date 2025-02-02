@@ -7,11 +7,12 @@ export default function Home() {
   const cadastruContent =
     "Cadastrul este necesar pentru identificarea și evidența proprietăților, stabilirea limitelor, vânzarea, cumpărarea sau ipotecarea imobilelor. Este esențial pentru obținerea autorizațiilor de construcție, accesarea creditelor și dezvoltarea infrastructurii, asigurând siguranță juridică proprietarilor.";
 
-  const intarusareContent = "Intărușarea terenurilor este necesară pentru stabilirea exactă a limitelor unei proprietăți, evitarea disputelor cu vecinii și respectarea planurilor de construcție. Asigură o delimitare precisă a terenului, fiind esențială în cadastru, urbanism și tranzacții imobiliare.";
+  const intarusareContent =
+    "Intărușarea terenurilor este necesară pentru stabilirea exactă a limitelor unei proprietăți, evitarea disputelor cu vecinii și respectarea planurilor de construcție. Asigură o delimitare precisă a terenului, fiind esențială în cadastru, urbanism și tranzacții imobiliare.";
 
   const planSituatieContent =
     "Planul de situație în cadastru este necesar pentru obținerea autorizațiilor de construire, actualizarea documentațiilor cadastrale, întocmirea proiectelor de urbanism, stabilirea limitelor proprietății și realizarea tranzacțiilor imobiliare. Acesta oferă o reprezentare exactă a terenului și construcțiilor existente.";
-    // "Planul de situație în topografie este necesar pentru reprezentarea detaliată a terenului, construcțiilor și elementelor naturale, fiind esențial în proiectare, urbanism și cadastru. Asigură precizie în execuția lucrărilor și respectarea limitelor proprietății.";
+  // "Planul de situație în topografie este necesar pentru reprezentarea detaliată a terenului, construcțiilor și elementelor naturale, fiind esențial în proiectare, urbanism și cadastru. Asigură precizie în execuția lucrărilor și respectarea limitelor proprietății.";
 
   const dezContent =
     "Dezmembrarea și alipirea în cadastru sunt necesare pentru modificarea suprafeței terenurilor, fie prin împărțirea unei proprietăți în loturi mai mici, fie prin unirea mai multor loturi într-unul singur. Aceste operațiuni sunt esențiale în vânzări, moșteniri sau dezvoltări imobiliare.";
@@ -25,19 +26,28 @@ export default function Home() {
     <div className="w-full">
       <main className="min-h-full flex flex-col">
         <div className="card flex flex-col grow transform-3d">
-          <div
-            className={
-              styles.imageContainer + " min-h-[10rem] sm:min-h-[20rem]"
-            }
-          >
+          <div className={ styles.imageContainer + " min-h-[10rem] sm:min-h-[20rem]" } >
             <div className={styles.text}>
-              Servicii cadastru si intabulare Constanta
+              Servicii cadastru și intabulare Constanța
             </div>
           </div>
-          <h4 className="underline underline-offset-4 text-center pt-4 text-sm sm:text-2xl">
+          <div className={ styles.info + " flex flex-col items-center justify-evenly gap-4 py-12 md:min-h-[40rem]" } >
+            <h3 className="text-md md:text-4xl font-extrabold">
+              +2300 PROIECTE
+            </h3>
+            <p className=" max-w-[85%] md:max-w-[50%] leading-6 md:leading-8 text-sm md:text-xl font-normal">
+              &emsp;&emsp; Cu o experiență de peste 20 de ani în domeniul
+              cadastrului și topografiei și peste 2300 de proiecte finalizate cu
+              succes, oferim servicii profesionale caracterizate prin
+              seriozitate, promptitudine și atenție la detalii. Ne dedicăm
+              fiecărui proiect, asigurând soluții precise și eficiente pentru
+              nevoile dumneavoastră.
+            </p>
+          </div>
+          <h4 className="underline underline-offset-4 text-center text-md sm:text-2xl mb-8 mt-12">
             Vă stăm la dispoziție cu următoarele:
           </h4>
-          <div className="flex flex-wrap justify-center py-8">
+          <div className="flex flex-wrap justify-center pb-12">
             <Card title="Cadastru" content={cadastruContent} />
             <Card title="Dezmembrare/alipire" content={dezContent} />
             <Card title="Intărușare" content={intarusareContent} />
@@ -45,9 +55,6 @@ export default function Home() {
             <Card title="Profile/curbe de nivel" content={profileContent} />
             <Card title="Modele 3D" content={model3DContent} />
           </div>
-          <a className="bg-slate-400 w-fit mx-auto my-4">
-            Vezi toate serviciile
-          </a>
         </div>
       </main>
     </div>

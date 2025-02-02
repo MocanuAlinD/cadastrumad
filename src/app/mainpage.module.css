@@ -2,6 +2,7 @@
   /* min-height: 20rem; */
   display: flex;
   justify-content: center;
+  padding-inline: 2rem;
   align-items: flex-end;
   background-image: url("../../public/bgmain1.jpeg");
   background-position: center;
@@ -14,10 +15,15 @@
     outline-offset: 0.25rem;
     color: white;
     font-weight: 400;
-    font-size: clamp(0.8rem, 3vw, 1.2rem);
+    font-size: clamp(0.6rem, 3vw, 1.2rem);
     margin-bottom: 2rem;
     width: fit-content ;
-    max-width: 80%;
+    max-width: 100%;
     height: 100%;
   }
+}
+
+.info{
+  background-color: var(--foreground);
+  color: var(--background);
 }
