@@ -1,5 +1,6 @@
 .layoutTopContainer {
   background-color: var(--foreground);
+  /* background-color: transparent; */
   display: flex;
   flex-direction: column;
   min-height: 100svh;
@@ -11,6 +12,7 @@
     justify-content: space-around;
     align-items: center;
     height: 5rem;
+    min-height: fit-content;
     /* comment / remove next 2 lines if you don`t want your navigation to be sticky */
     position: sticky;
     top: 0;

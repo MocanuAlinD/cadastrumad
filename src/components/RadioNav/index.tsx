@@ -12,10 +12,9 @@ const Navigation = () => {
   const path = usePathname();
 
   return (
-    <div className={styles.topContainer + " px-4 md:px-16"}>
+    <div className={styles.topContainer + " px-2 md:px-16 flex flex-col md:flex-row items-center justify-between overflow-hidden h-full w-full"}>
       <h1 className={styles.titleLogo}>Cadastru</h1>
-      <button onClick={() => console.log(path)}>path</button>
-      <div className={styles.navContainer + " hidden md:flex"}>
+      <div className={styles.navContainer + " w-full md:w-fit flex justify-center flex-wrap"}>
         <label className={styles.label} htmlFor="op1">
           Acasă
         </label>

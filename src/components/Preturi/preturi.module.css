@@ -5,7 +5,6 @@
   align-items: center;
   flex-direction: column;
   .tableContainer {
-    /* border: 1px solid red; */
     width: 100%;
   }
   .table {
@@ -24,7 +23,7 @@
       padding-inline: 0.5rem;
     }
 
-    & tr:nth-child(even) {
+  & tr:nth-child(even) {
       background: var(--gray);
     }
 
@@ -35,15 +34,19 @@
     & td:not(:first-child) {
       width: 30%;
     }
-
-    /* .notaSubsol {
-      font-weight: 800;
-      color: black;
-      padding-block: 1rem;
-      font-size: clamp(0.8rem, 3vw, 1.3rem);
-    }
-    .important{
-      color: red;
-    } */
   }
 }
+
+.important{
+  animation: fadeColor 1s ease-in-out alternate infinite;
+}
+
+@keyframes fadeColor {
+  0%{
+    color: var(--orange);
+  }
+  100%{
+    color: transparent;
+  }
+}
+

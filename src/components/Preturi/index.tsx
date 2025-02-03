@@ -8,16 +8,10 @@ const Preturi = () => {
         <table className={styles.table + " table-auto my-8 mb-16"}>
           <tbody>
             <tr>
-              <td className={ styles.important + " text-center font-bold text-lg sm:text-2xl"}>IMPORTANT</td>
+              <td className={ styles.important + " text-center font-bold text-lg sm:text-2xl"}>DE RETINUT !!!</td>
             </tr>
             <tr>
-              <td
-                colSpan={3}
-                className={
-                  styles.notaSubsol +
-                  " px-2 leading-6 sm:leading-8"
-                }
-              >
+              <td colSpan={3} className={styles.notaSubsol + " px-2 leading-6 sm:leading-8"}>
                 - Beneficiați de consultanță gratuită pentru toate tipurile de
                 lucrări.
                 <br />

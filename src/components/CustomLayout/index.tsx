@@ -11,7 +11,6 @@ const CustomLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className={styles.layoutTopContainer}>
       <nav className={styles.layoutNavigation}>
-        {/* <Navigation /> */}
         <RadioNav />
       </nav>
 

@@ -1,13 +1,6 @@
 .topContainer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  /* max-width: 90rem; */
-  overflow-x: hidden;
-  background-color: var(--foreground);
-  z-index: -1;
-  height: 100%;
+  /* background-color: var(--foreground); */
+  background: linear-gradient(to top, var(--foreground), var(--gray));
 }
 
 .titleLogo {
@@ -15,33 +8,15 @@
   color: var(--background);
 }
 
-/* .navContainer {
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  .label{
-    margin-inline: 1rem;
-    color: blue;
-  }
-  & input{
-    appearance: none;
-  }
-  & > input:checked + label{
-    color: red;
-  }
-} */
-
 
 .navContainer{
-  justify-content: center;
-  align-items: center;
   & input{
     appearance: none;
   }
 }
 
 .label{
-  color: slategray;
+  color: var(--blueLight);
   margin-inline: 1rem;
   cursor: pointer;
   transition: all .35s ease-in-out;

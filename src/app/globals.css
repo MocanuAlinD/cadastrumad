@@ -9,6 +9,10 @@
   --cardWidth: min(90%, 25rem);
   --orange: #ee6c4d;
   --gray: #c0c0c0;
+  --grayDark: #7D8597;
+
+  /* --blueLight: #0466C8; */
+  --blueLight: #4281A4;
 }
 
 @media (prefers-color-scheme: dark) {

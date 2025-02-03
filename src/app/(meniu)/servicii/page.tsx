@@ -5,7 +5,7 @@ const Servicii = () => {
   return (
     <div className="w-full">
 
-    <div className='flex justify-center py-8 mx-auto max-w-[90%] sm:max-w-[40rem] text-sm sm:text-xl border-b border-slate-400'>&emsp;&emsp;Pe lângă serviciile de cadastru și intabulare, ne recomandă o vastă experiență în lucrările de șantier, unde atenția la detalii și precizia sunt esențiale. Vă invităm să descoperiți mai jos tipurile de lucrări pentru care ne puteți contacta și să colaborăm cu încredere!</div>
+    <div className='flex justify-center py-8 m-auto mx-auto max-w-[90%] sm:max-w-[40rem] text-sm sm:text-xl border-b border-slate-400'>&emsp;&emsp;Pe lângă serviciile de cadastru și intabulare, ne recomandă o vastă experiență în lucrările de șantier, unde atenția la detalii și precizia sunt esențiale. Vă invităm să descoperiți mai jos tipurile de lucrări pentru care ne puteți contacta și să colaborăm cu încredere!</div>
 
       <ServiciiCard
         src="/cad03/dispensar640zoom.png"

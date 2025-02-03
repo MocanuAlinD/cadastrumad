@@ -3,7 +3,7 @@ import Preturi from '@/components/Preturi'
 
 const Tarife = () => {
   return (
-    <div className='border w-full'>
+    <div className='w-full'>
       <Preturi />
     </div>
   )
