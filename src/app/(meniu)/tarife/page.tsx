@@ -1,9 +1,10 @@
 import React from 'react'
+import Preturi from '@/components/Preturi'
 
 const Tarife = () => {
   return (
-    <div>
-      Tarife
+    <div className='border w-full'>
+      <Preturi />
     </div>
   )
 }

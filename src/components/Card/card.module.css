@@ -52,7 +52,7 @@
   }
 }
 
-@media screen and (width > 768px) {
+/* @media screen and (width > 768px) { */
   .topContainer:hover .cardContainer {
     transform: rotateX(15deg);
     /* box-shadow: 0 -20px 40px #ffffff88; */
@@ -71,4 +71,4 @@
     border-top-right-radius: 0;
     background-color: var(--orange);
   }
-}
+/* } */

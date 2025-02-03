@@ -65,11 +65,8 @@ export default function Home() {
               <Card title="Cadastru" content={cadastruContent} />
               <Card title="Dezmembrare/alipire" content={dezContent} />
               <Card title="Intărușare" content={intarusareContent} />
-              <Card
-                title="Măsurători/trasări șantier"
-                content={santierContent}
-              />
               <Card title="Plan de situație" content={planSituatieContent} />
+              <Card title="Măsurători/trasări șantier" content={santierContent} />
               <Card title="Profile/curbe de nivel" content={profileContent} />
               <Card title="3D" content={model3DContent} />
             </div>

@@ -4,6 +4,9 @@ import ServiciiCard from "@/components/ServiciiCard";
 const Servicii = () => {
   return (
     <div className="w-full">
+
+    <div className='flex justify-center py-8 mx-auto max-w-[90%] sm:max-w-[40rem] text-sm sm:text-xl border-b border-slate-400'>&emsp;&emsp;Pe lângă serviciile de cadastru și intabulare, ne recomandă o vastă experiență în lucrările de șantier, unde atenția la detalii și precizia sunt esențiale. Vă invităm să descoperiți mai jos tipurile de lucrări pentru care ne puteți contacta și să colaborăm cu încredere!</div>
+
       <ServiciiCard
         src="/cad03/dispensar640zoom.png"
         text="Cadastrul și intabularea sunt necesare pentru a dovedi dreptul de proprietate asupra unei garsoniere sau unui apartament. Acestea sunt obligatorii pentru vânzare, ipotecare sau succesiune, asigurând recunoașterea legală a imobilului și protejându-te de eventuale litigii."
@@ -44,10 +47,7 @@ const Servicii = () => {
         src="/cad03/profil1080.png"
         text="Măsurătorile pentru crearea profilelor terenurilor și structurilor sunt esențiale pentru proiectare și execuție. Acestea sunt necesare pentru reabilitarea căilor ferate, modernizarea drumurilor, amenajarea rigolelor pentru scurgerea apei, stabilizarea versanților, extinderea rețelelor de utilități și modelarea terenului pentru construcții."
       />
-      <ServiciiCard
-        src="/cad03/scoala640.png"
-        text="Măsurătorile pentru planurile de situație la clădiri și imobile sunt esențiale pentru diverse lucrări, asigurând precizie și conformitate cu normele. Acestea sunt necesare pentru obținerea autorizației de construire, intabulare, extinderea sau modificarea construcțiilor, vânzarea unui imobil sau stabilirea exactă a limitelor proprietății."
-      />
+      <ServiciiCard src="/cad03/scoala640.png" text="Măsurătorile pentru planurile de situație la clădiri și imobile sunt esențiale pentru diverse lucrări, asigurând precizie și conformitate cu normele. Acestea sunt necesare pentru obținerea autorizației de construire, intabulare, extinderea sau modificarea construcțiilor, vânzarea unui imobil sau stabilirea exactă a limitelor proprietății." />
       {/* <ServiciiCard src="/cad03/scoalahasura1080.png" text="scoalahasura1080" /> */}
     </div>
   );
