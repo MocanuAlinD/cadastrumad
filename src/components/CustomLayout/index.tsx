@@ -1,5 +1,6 @@
 import React from "react";
-import Navigation from "../Navigation";
+// import Navigation from "../Navigation";
+import RadioNav from "../RadioNav";
 import styles from "./CustomLayout.module.css";
 
 const CustomLayout = ({ children }: { children: React.ReactNode }) => {
@@ -10,7 +11,8 @@ const CustomLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className={styles.layoutTopContainer}>
       <nav className={styles.layoutNavigation}>
-        <Navigation />
+        {/* <Navigation /> */}
+        <RadioNav />
       </nav>
 
       <ContentContainer>{children}</ContentContainer>

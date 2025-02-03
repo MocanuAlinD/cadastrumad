@@ -21,6 +21,9 @@ const Navigation = () => {
           <Link href="/tarife">Tarife</Link>
         </li>
         <li className={styles.navItem}>
+          <Link href="/acte">Acte</Link>
+        </li>
+        <li className={styles.navItem}>
           <Link href="/info">Informații</Link>
         </li>
         <li className={styles.navItem}>

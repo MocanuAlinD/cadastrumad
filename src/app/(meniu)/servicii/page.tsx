@@ -5,7 +5,7 @@ const Servicii = () => {
   return (
     <div className="w-full">
       <ServiciiCard
-        src="/cad03/dispensar1080zoom.png"
+        src="/cad03/dispensar640zoom.png"
         text="Cadastrul și intabularea sunt necesare pentru a dovedi dreptul de proprietate asupra unei garsoniere sau unui apartament. Acestea sunt obligatorii pentru vânzare, ipotecare sau succesiune, asigurând recunoașterea legală a imobilului și protejându-te de eventuale litigii."
       />
       <ServiciiCard
@@ -17,7 +17,7 @@ const Servicii = () => {
         text="Măsurătorile 3D la clădiri sunt necesare pentru reabilitarea fațadelor, consolidarea structurii, eficientizarea energetică și restaurarea monumentelor istorice. Acestea oferă o imagine detaliată și precisă a construcției, esențială pentru proiectare, execuție și evitarea erorilor în lucrările de renovare."
       />
       <ServiciiCard
-        src="/cad03/canal1080.png"
+        src="/cad03/canal640.png"
         text="Măsurătorile și modelele 3D ale terenurilor și taluzelor sunt necesare pentru prevenirea alunecărilor de teren, proiectarea infrastructurii rutiere, optimizarea excavațiilor și lucrările de consolidare. Acestea oferă date precise pentru analiza stabilității solului și siguranța construcțiilor din zonă."
       />
       <ServiciiCard
@@ -25,24 +25,30 @@ const Servicii = () => {
         text="Curbele de nivel sunt esențiale în proiectarea construcțiilor, sistemelor de irigații, drumurilor și în prevenirea eroziunii solului. Acestea sunt necesare pentru a înțelege relieful terenului, asigurând o planificare corectă și o execuție eficientă a lucrărilor."
       />
       <ServiciiCard
-        src="/cad03/cvartal1080.png"
-        text="Măsurătorile în oraș sunt necesare pentru proiectarea și modernizarea infrastructurii, precum reabilitarea drumurilor, extinderea rețelelor de utilități, amenajarea spațiilor verzi și actualizarea hărților urbane. Acestea asigură date precise pentru dezvoltarea și siguranța mediului urban."
+        src="/cad03/cvartal640.png"
+        text="Măsurătorile urbane sunt necesare pentru actualizarea planurilor cadastrale, proiectarea și reabilitarea infrastructurii, modernizarea rețelelor de utilități, amenajarea spațiilor verzi, gestionarea traficului și documentarea detaliată a zonelor pentru proiecte de dezvoltare urbană sau întreținere."
       />
-      <ServiciiCard src="/cad03/giratoriu1080.png" text="giratoriu1080" />
-      <ServiciiCard src="/cad03/giratoriu1080.png" text="giratoriu1080" />
-      <ServiciiCard src="/cad03/iaki3d.png" text="iaki3d" />
-      <ServiciiCard src="/cad03/iaki3dwireframe.png" text="iaki3dwireframe" />
-      <ServiciiCard src="/cad03/iaki4kwireframe.png" text="iaki4kwireframe" />
-      <ServiciiCard src="/cad03/iaki1080.png" text="iaki1080" />
-      <ServiciiCard src="/cad03/intersectie1080.png" text="intersectie1080" />
-      <ServiciiCard src="/cad03/klass01.png" text="klass01" />
-      <ServiciiCard src="/cad03/klass02.png" text="klass02" />
-      <ServiciiCard src="/cad03/magistrala1080.png" text="magistrala1080" />
-      <ServiciiCard src="/cad03/parc1080.png" text="parc1080" />
-      <ServiciiCard src="/cad03/pod3D.png" text="pod3D" />
-      <ServiciiCard src="/cad03/profil1080.png" text="profil1080" />
-      <ServiciiCard src="/cad03/scoala1080.png" text="scoala1080" />
-      <ServiciiCard src="/cad03/scoalahasura1080.png" text="scoalahasura1080" />
+      <ServiciiCard
+        src="/cad03/giratoriu640.png"
+        text="Măsurătorile la intersecțiile rutiere sunt esențiale pentru fluidizarea traficului, proiectarea sensurilor giratorii, instalarea semafoarelor, optimizarea semnalizării, extinderea sau reconfigurarea benzilor și asigurarea siguranței pietonale. Aceste date contribuie la planificarea și îmbunătățirea infrastructurii urbane!"
+      />
+      {/* <ServiciiCard src="/cad03/klass01.png" text="klass01" /> */}
+      {/* <ServiciiCard src="/cad03/klass02.png" text="klass02" /> */}
+      {/* <ServiciiCard src="/cad03/magistrala640.png" text="magistrala1080" /> */}
+      <ServiciiCard src="/cad03/parc640.png" text="Măsurătorile în parcuri sunt necesare pentru amenajarea aleilor, spațiilor verzi și locurilor de joacă, instalarea mobilierului urban, iluminatului și sistemelor de irigații, reabilitarea zonelor degradate, delimitarea terenurilor și actualizarea hărților. Acestea asigură o dezvoltare armonioasă și funcțională a spațiilor publice!" />
+      <ServiciiCard
+        src="/cad03/pod3D.png"
+        text="Măsurătorile 3D ale interioarelor sunt esențiale pentru proiectare și optimizare. Acestea sunt necesare în designul interior, renovări și restaurări, recompartimentări, verificarea spațiilor pentru mobilier personalizat, crearea tururilor virtuale și documentarea exactă a construcțiilor pentru arhivare sau lucrări tehnice."
+      />
+      <ServiciiCard
+        src="/cad03/profil1080.png"
+        text="Măsurătorile pentru crearea profilelor terenurilor și structurilor sunt esențiale pentru proiectare și execuție. Acestea sunt necesare pentru reabilitarea căilor ferate, modernizarea drumurilor, amenajarea rigolelor pentru scurgerea apei, stabilizarea versanților, extinderea rețelelor de utilități și modelarea terenului pentru construcții."
+      />
+      <ServiciiCard
+        src="/cad03/scoala640.png"
+        text="Măsurătorile pentru planurile de situație la clădiri și imobile sunt esențiale pentru diverse lucrări, asigurând precizie și conformitate cu normele. Acestea sunt necesare pentru obținerea autorizației de construire, intabulare, extinderea sau modificarea construcțiilor, vânzarea unui imobil sau stabilirea exactă a limitelor proprietății."
+      />
+      {/* <ServiciiCard src="/cad03/scoalahasura1080.png" text="scoalahasura1080" /> */}
     </div>
   );
 };

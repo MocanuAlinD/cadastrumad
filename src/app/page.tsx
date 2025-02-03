@@ -90,8 +90,8 @@ export default function Home() {
                 putem ajuta, iar noi îți oferim soluția potrivită. Pentru a
                 economisi timp și drumuri inutile, ne poți trimite actele pe
                 email sau WhatsApp. Le analizăm rapid, iar în cel mult 24 de ore
-                îți oferim toate detaliile necesare: acte suplimentare, costuri,
-                termene de execuție. După ce ai toate informațiile, stabilim
+                îți oferim toate detaliile necesare: costuri,
+                termene de execuție și orice mai este nevoie. După ce ai toate informațiile, stabilim
                 împreună o dată convenabilă pentru începerea lucrării.
               </p>
               <p className="text-sm md:text-xl font-bold w-full text-center">&emsp;&emsp;Simplu, rapid și eficient!</p>
