@@ -1,27 +1,27 @@
-.tableContainer{
-  /* border: 1px solid red; */
-}
-
-.container {
+.topContainer {
   width: min(95%, 60rem);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  .tableContainer {
+    /* border: 1px solid red; */
+    width: 100%;
+  }
   .table {
     color: var(--background);
     background-color: transparent;
+    width: 100%;
     & thead tr th {
       font-size: clamp(0.6rem, 3vw, 1rem);
       font-weight: 400;
-      /* border: 1px solid var(--foreground); */
       color: var(--foreground);
       background-color: var(--background);
     }
-    & td {
+    & td:not(.important,.notaSubsol) {
       font-size: clamp(0.6rem, 2vw, 0.9rem);
       border: 1px solid var(--background);
-      padding-inline: 0.2rem;
+      padding-inline: 0.5rem;
     }
 
     & tr:nth-child(even) {
@@ -33,20 +33,17 @@
     }
 
     & td:not(:first-child) {
-      width: 25%;
+      width: 30%;
     }
 
-    .notaSubsol {
+    /* .notaSubsol {
       font-weight: 800;
       color: black;
       padding-block: 1rem;
+      font-size: clamp(0.8rem, 3vw, 1.3rem);
     }
-  }
-
-  & h3 {
-    font-size: clamp(1.2rem, 3vw, 2rem);
-    font-weight: 400;
-    width: 100%;
-    padding-block: 1rem;
+    .important{
+      color: red;
+    } */
   }
 }
