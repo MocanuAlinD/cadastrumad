@@ -26,6 +26,10 @@
 .info{
   background-color: var(--foreground);
   color: var(--background);
+  & h3{
+    font-family: var(--fontRose), sans-serif;
+    font-weight: 700;
+  }
 }
 
 
@@ -38,4 +42,8 @@
   align-items: center;
   flex-direction: column;
   padding-block: 2rem;
+}
+
+.cardsTitle{
+  font-family: var(--fontRose), sans-serif;
 }

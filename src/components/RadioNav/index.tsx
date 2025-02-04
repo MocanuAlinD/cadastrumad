@@ -1,8 +1,8 @@
 "use client";
 import React, {useState} from "react";
 import { useRouter, usePathname } from "next/navigation";
-import styles from "./radionav.module.css";
 import cx from "clsx"
+import styles from "./radionav.module.css";
 
 // TODO:
 // Navigatia sa se faca blur cand dai scroll in jos (observer, ia de la model facut deja)

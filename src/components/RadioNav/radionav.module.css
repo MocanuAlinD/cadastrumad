@@ -1,11 +1,13 @@
 .topContainer {
   /* background-color: var(--foreground); */
   background: linear-gradient(to top, var(--foreground), var(--gray));
+  font-family: var(--fontRose);
 }
 
 .titleLogo {
   font-size: clamp(1rem, 4vw, 2rem);
   color: var(--background);
+  font-weight: 700;
 }
 
 
@@ -26,6 +28,7 @@
   margin-inline: 1rem;
   cursor: pointer;
   transition: all .35s ease-in-out;
+  font-weight: 400;
   &:hover{
     color: var(--background);
   }

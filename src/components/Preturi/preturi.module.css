@@ -12,18 +12,21 @@
     background-color: transparent;
     width: 100%;
     & thead tr th {
-      font-size: clamp(0.6rem, 3vw, 1rem);
-      font-weight: 400;
-      color: var(--foreground);
+      font-size: clamp(0.6rem, 2vw, 1rem);
+      /* font-weight: 400; */
+      /* color: var(--foreground); */
       background-color: var(--background);
+      color: var(--foreground);
+      font-family: var(--fontRose);
+      font-weight: 400;
     }
-    & td:not(.important,.notaSubsol) {
+    & td:not(.important, .notaSubsol) {
       font-size: clamp(0.6rem, 2vw, 0.9rem);
       border: 1px solid var(--background);
       padding-inline: 0.5rem;
     }
 
-  & tr:nth-child(even) {
+    & tr:nth-child(even) {
       background: var(--gray);
     }
 
@@ -34,19 +37,30 @@
     & td:not(:first-child) {
       width: 30%;
     }
+    .notaSubsol{
+      /* color: red; */
+      font-size: clamp(0.9rem,2vw,1.3rem);
+      /* font-size: 1.2rem; */
+      font-weight: 400;
+      font-family: var(--fontRose);
+    }
+  }
+
+  .table tr td:first-child {
+    /* color: red; */
   }
 }
 
-.important{
+.important {
   animation: fadeColor 1s ease-in-out alternate infinite;
+  font-family: var(--fontRose);
 }
 
 @keyframes fadeColor {
-  0%{
+  0% {
     color: var(--orange);
   }
-  100%{
+  100% {
     color: transparent;
   }
 }
-

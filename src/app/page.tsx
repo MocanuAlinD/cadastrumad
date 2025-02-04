@@ -1,6 +1,7 @@
 // import Image from "next/image";
 // import profilePic from "../../public/bgmain.jpeg";
 import Card from "@/components/Card";
+import cx from "clsx"
 import styles from "./mainpage.module.css";
 
 export default function Home() {
@@ -44,7 +45,7 @@ export default function Home() {
               " flex flex-col items-center justify-evenly gap-4 py-12 md:min-h-[40rem]"
             }
           >
-            <h3 className="text-md md:text-4xl font-extrabold text-center">
+            <h3 className="text-lg md:text-5xl font-extrabold text-center">
               +20 ANI <br /> +2300 PROIECTE
             </h3>
             <p className=" max-w-[85%] md:max-w-[50%] leading-6 md:leading-8 text-sm md:text-xl font-normal">
@@ -58,7 +59,7 @@ export default function Home() {
           </section>
 
           <section>
-            <h4 className="underline underline-offset-4 text-center text-md sm:text-2xl mb-8 mt-12">
+            <h4 className={cx(styles.cardsTitle,"underline underline-offset-4 text-center text-md sm:text-2xl mb-8 mt-12")}>
               Vă stăm la dispoziție cu următoarele:
             </h4>
             <div className="flex flex-wrap justify-center pb-12">
@@ -79,7 +80,7 @@ export default function Home() {
                 " flex flex-col items-center justify-evenly gap-4 py-12 md:min-h-[40rem]"
               }
             >
-              <h3 className="text-md md:text-4xl font-extrabold text-center">
+              <h3 className="text-lg md:text-5xl font-extrabold text-center">
                 CONSULTANȚĂ GRATUITĂ
               </h3>
               <p className=" max-w-[85%] md:max-w-[50%] leading-6 md:leading-8 text-sm md:text-xl font-normal">

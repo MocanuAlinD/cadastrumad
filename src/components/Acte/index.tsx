@@ -5,36 +5,6 @@ const Acte = () => {
   return (
     <div className={styles.acteContainer + " mx-auto my-12"}>
         <h1 className={styles.title}>Acte necesare pentru:</h1>
-        {/* <table className={styles.table}>
-            <thead>
-                <tr>
-                    <th></th>
-                    <th>Cadastru garsoniere/apartamente</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td className={styles.indexRow}>1</td>
-                    <td>Acte de proprietate (contract de vanzare-cumparare, contract de construire)</td>
-                </tr>
-                <tr>
-                    <td className={styles.indexRow}>2</td>
-                    <td>Acte de identitate</td>
-                </tr>
-                <tr>
-                    <td className={styles.indexRow}>3</td>
-                    <td>Extras de carte funciară (după caz)</td>
-                </tr>
-                <tr>
-                    <td className={styles.indexRow}>3</td>
-                    <td>Acte tehnice ale imobilului</td>
-                </tr>
-                <tr>
-                    <td className={styles.indexRow}>3</td>
-                    <td>Certificat fiscal</td>
-                </tr>
-            </tbody>
-        </table> */}
         <div className='p-4 mt-4'>
             <h3 className={styles.h3Category}>Cadastru garsoniere/apartamente</h3>
             <ul className={styles.ul}>

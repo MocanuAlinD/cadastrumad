@@ -13,6 +13,17 @@
 
   /* --blueLight: #0466C8; */
   --blueLight: #4281A4;
+
+  --fontRose: "Red Rose";
+  --fontw900: 900;
+  --fontw800: 800;
+  --fontw700: 700;
+  --fontw600: 600;
+  --fontw500: 500;
+  --fontw400: 400;
+  --fontw300: 300;
+  --fontw200: 200;
+  --fontw100: 100;
 }
 
 @media (prefers-color-scheme: dark) {
