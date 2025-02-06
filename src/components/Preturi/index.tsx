@@ -99,13 +99,13 @@ const Preturi = () => {
           <tbody>
             <tr>
               <td>Dezmembrare</td>
-              <td>300 lei/lot</td>
-              <td>400 lei/lot</td>
+              <td>550 lei/lot</td>
+              <td>650 lei/lot</td>
             </tr>
             <tr>
               <td>Apartamentare</td>
-              <td>300 lei/UI</td>
               <td>400 lei/UI</td>
+              <td>500 lei/UI</td>
             </tr>
             <tr>
               <td>Alipire(comasare)</td>

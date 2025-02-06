@@ -4,7 +4,7 @@ import Acte from '@/components/Acte'
 
 const Tarife = () => {
   return (
-    <div className='w-full'>
+    <div className='w-full border'>
       <Preturi />
       <Acte />
     </div>

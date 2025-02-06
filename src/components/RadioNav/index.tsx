@@ -64,8 +64,11 @@ const Navigation = () => {
         {/* <label className={styles.label} htmlFor="op4">Acte</label> */}
         {/* <input id="op4" type="radio" name="options" value="option4" checked={path === "/acte"} onChange={() => (router.push("/acte"), setOpen(false))} /> */}
 
-        <label className={styles.label} htmlFor="op5">Informații</label>
-        <input id="op5" type="radio" name="options" value="option5" checked={path === "/info"} onChange={() => (router.push("/info"), setOpen(false))} />
+        <label className={styles.label} htmlFor="op5">Când, cum, de ce?</label>
+        <input id="op5" type="radio" name="options" value="option5" checked={path === "/intrebari"} onChange={() => (router.push("/intrebari"), setOpen(false))} />
+
+        <label className={styles.label} htmlFor="op6">Galerie</label>
+        <input id="op6" type="radio" name="options" value="option6" checked={path === "/galerie"} onChange={() => (router.push("/galerie"), setOpen(false))} />
 
         <label className={styles.label} htmlFor="op6">Contact</label>
         <input id="op6" type="radio" name="options" value="option6" checked={path === "/contact"} onChange={() => (router.push("/contact"), setOpen(false))} />

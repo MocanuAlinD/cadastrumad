@@ -67,7 +67,7 @@ export default function Home() {
                 "underline underline-offset-4 text-center text-md sm:text-2xl mb-8 mt-12"
               )}
             >
-              Vă stăm la dispoziție cu următoarele:
+              Vă stăm la dispoziție cu următoarele, și nu numai:
             </h4>
             <div className="flex flex-wrap justify-center pb-12">
               <Card title="Cadastru" content={cadastruContent} />

@@ -10,7 +10,7 @@ const ServiciiCard = ({ src, text }: { src?: string; text?: string }) => {
         " w-[90%] mx-auto mt-8 flex flex-col-reverse md:flex-row"
       }
     >
-      <div className="w-[100%] mx-auto md:w-[65%] relative my-auto border-r border-b border-r-[#ffffff33] border-b-[#ffffff00] rounded-xl p-1">
+      <div className="w-[100%] mx-auto md:w-[65%] relative my-auto border-r border-b border-r-[#ffffff33] border-b-[#ffffff00] rounded-xl p-2">
         <Image
           src={src ? src : "/cad01/3DDana80.png"}
           alt={text ? text : "Image"}
