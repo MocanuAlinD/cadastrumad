@@ -1,0 +1,25 @@
+.container {
+  border-bottom: 1px solid #ffffff55;
+  width: min(100%, 50rem);
+  height: fit-content;
+  margin-inline: auto;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  border-radius: 0.5rem;
+  background: linear-gradient(to right, #1f363d, var(--background), #1f363d);
+  padding-block: 1rem;
+}
+
+.imageContainer {
+  width: 100%;
+  position: relative;
+}
+
+.image {
+  width: auto;
+  height: 100%;
+  object-fit: contain;
+}

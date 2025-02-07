@@ -1,5 +1,5 @@
 .container{
-    background: linear-gradient(to bottom right, #101010, #212121);
+    /* background: linear-gradient(to bottom right, #101010, #212121); */
     background: linear-gradient(to bottom right, #1F363D, var(--background));
     border-radius: 1rem;
     padding: 1rem;
