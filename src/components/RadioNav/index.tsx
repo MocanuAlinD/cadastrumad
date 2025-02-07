@@ -70,8 +70,8 @@ const Navigation = () => {
         <label className={styles.label} htmlFor="op6">Galerie</label>
         <input id="op6" type="radio" name="options" value="option6" checked={path === "/galerie"} onChange={() => (router.push("/galerie"), setOpen(false))} />
 
-        <label className={styles.label} htmlFor="op6">Contact</label>
-        <input id="op6" type="radio" name="options" value="option6" checked={path === "/contact"} onChange={() => (router.push("/contact"), setOpen(false))} />
+        <label className={styles.label} htmlFor="op7">Contact</label>
+        <input id="op7" type="radio" name="options" value="option6" checked={path === "/contact"} onChange={() => (router.push("/contact"), setOpen(false))} />
       </div>
     </div>
   );
