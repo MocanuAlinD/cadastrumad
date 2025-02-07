@@ -13,44 +13,44 @@ const Servicii = () => {
 
 
       <ServiciiCard
-        src="/cad03/dispensar640zoom.png"
+        src="/cad/dispensar640zoom.png"
         text="Cadastru și intabulare garsoniere, apartamente, case, terenuri."
       />
       <ServiciiCard
-        src="/cad03/ciobanu1080.png"
+        src="/cad/ciobanu1080.png"
         text="Ridicări topografice la drumuri."
       />
       <ServiciiCard
-        src="/cad03/bloc01.png"
+        src="/cad/bloc01.png"
         text="Măsurători 3D la clădiri pentru reabilitarea fațadelor, consolidarea structurii, eficientizarea energetică și restaurarea monumentelor istorice."
       />
       <ServiciiCard
-        src="/cad03/canal640.png"
+        src="/cad/canal640.png"
         text="Măsurători și modele 3D ale terenurilor."
       />
-      <ServiciiCard src="/cad03/curbe1080.png" text="Curbe de nivel." />
-      {/* <ServiciiCard src="/cad03/cvartal640.png" text="Ridicări topografice de detaliu." /> */}
-      {/* <ServiciiCard src="/cad03/giratoriu640.png" text="Măsurătorile la intersecțiile rutiere sunt esențiale pentru fluidizarea traficului, proiectarea sensurilor giratorii, instalarea semafoarelor, optimizarea semnalizării, extinderea sau reconfigurarea benzilor și asigurarea siguranței pietonale. Aceste date contribuie la planificarea și îmbunătățirea infrastructurii urbane!" /> */}
-      {/* <ServiciiCard src="/cad03/klass01.png" text="klass01" /> */}
-      {/* <ServiciiCard src="/cad03/klass02.png" text="klass02" /> */}
-      {/* <ServiciiCard src="/cad03/magistrala640.png" text="magistrala1080" /> */}
+      <ServiciiCard src="/cad/curbe1080.png" text="Curbe de nivel." />
+      {/* <ServiciiCard src="/cad/cvartal640.png" text="Ridicări topografice de detaliu." /> */}
+      {/* <ServiciiCard src="/cad/giratoriu640.png" text="Măsurătorile la intersecțiile rutiere sunt esențiale pentru fluidizarea traficului, proiectarea sensurilor giratorii, instalarea semafoarelor, optimizarea semnalizării, extinderea sau reconfigurarea benzilor și asigurarea siguranței pietonale. Aceste date contribuie la planificarea și îmbunătățirea infrastructurii urbane!" /> */}
+      {/* <ServiciiCard src="/cad/klass01.png" text="klass01" /> */}
+      {/* <ServiciiCard src="/cad/klass02.png" text="klass02" /> */}
+      {/* <ServiciiCard src="/cad/magistrala640.png" text="magistrala1080" /> */}
       <ServiciiCard
-        src="/cad03/parc640.png"
+        src="/cad/parc640.png"
         text="Ridicări topografice de detaliu."
       />
       <ServiciiCard
-        src="/cad03/pod3D.png"
+        src="/cad/pod3D.png"
         text="Măsurători 3D ale interioarelor pentru proiectare și optimizare, design interior, renovări și restaurări, recompartimentări, verificarea spațiilor pentru mobilier personalizat, crearea tururilor virtuale și documentarea exactă a construcțiilor pentru arhivare sau lucrări tehnice."
       />
       <ServiciiCard
-        src="/cad03/profil1080.png"
+        src="/cad/profil1080.png"
         text="Crearea profilelor în urma ridicărilor topografice."
       />
       <ServiciiCard
-        src="/cad03/scoala640.png"
+        src="/cad/scoala640.png"
         text="Măsurători pentru planurile de situație."
       />
-      {/* <ServiciiCard src="/cad03/scoalahasura1080.png" text="scoalahasura1080" /> */}
+      {/* <ServiciiCard src="/cad/scoalahasura1080.png" text="scoalahasura1080" /> */}
     </div>
   );
 };

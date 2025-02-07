@@ -12,7 +12,7 @@ const ServiciiCard = ({ src, text }: { src?: string; text?: string }) => {
     >
       <div className="w-[100%] mx-auto md:w-[65%] relative my-auto border-r border-b border-r-[#ffffff33] border-b-[#ffffff00] rounded-xl p-2">
         <Image
-          src={src ? src : "/cad01/3DDana80.png"}
+          src={src ? src : "/global.svg"}
           alt={text ? text : "Image"}
           width={1920}
           height={1080}
