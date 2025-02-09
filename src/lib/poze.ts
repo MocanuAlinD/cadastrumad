@@ -10,7 +10,7 @@ export const pozeLucrari = [
     { src: "/poze/blocuri/blocuri_08.jpg", text: "Bloc Mamaia Nord." },
     { src: "/poze/blocuri/blocuri_09.jpg", text: "Bloc Mamaia Nord, trasare pereți interiori." },
     { src: "/poze/blocuri/blocuri_10.jpg", text: "Precizia la trasări este esențială." },
-    { src: "/poze/blocuri/blocuri_11.jpg", text: "Bloc Mamaia Nord, trasare zidărie." },
+    { src: "/poze/blocuri/blocuri_11.jpg", text: "Bloc Mamaia Nord, trasare balustradă sticlă." },
     { src: "/poze/blocuri/blocuri_12.jpg", text: "Bloc Mamaia Nord, pregătire pentru trasare balustrade sticlă." },
     { src: "/poze/blocuri/blocuri_13.jpg", text: "Bloc Mamaia Nord, vedere generală la final de proiect." },
     { src: "/poze/cernavoda/cern_01.jpg", text: "Parc Cernavodă, trasare borduri." },

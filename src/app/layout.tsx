@@ -12,16 +12,13 @@ const sati = Satisfy({
 const redRose = Red_Rose({
   variable: "--font-sati",
   subsets: ["latin"],
-  weight: ["300","400","500","600","700"],
+  weight: ["300", "400", "500", "600", "700"],
 });
-
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
-
-
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
@@ -40,13 +37,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-        <body
-          className={`${redRose.variable} ${sati.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
-          >
-          <CustomLayout>
-          {children}
-      </CustomLayout>
-        </body>
+      <body
+        className={`${redRose.variable} ${sati.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
+        <CustomLayout>{children}</CustomLayout>
+      </body>
     </html>
   );
 }
