@@ -1,6 +1,7 @@
 import React from "react";
 // import Navigation from "../Navigation";
 import RadioNav from "../RadioNav";
+import Footer from "../Footer";
 import styles from "./CustomLayout.module.css";
 
 const CustomLayout = ({ children }: { children: React.ReactNode }) => {
@@ -15,7 +16,9 @@ const CustomLayout = ({ children }: { children: React.ReactNode }) => {
       </nav>
 
       <ContentContainer>{children}</ContentContainer>
-      <footer className={styles.layoutFooter}>Footer goes here</footer>
+      <footer className={styles.layoutFooter}>
+        <Footer />
+      </footer>
     </div>
   );
 };
