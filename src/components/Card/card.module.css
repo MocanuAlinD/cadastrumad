@@ -47,10 +47,11 @@
     font-weight: 400;
     color: var(--foregroundgray);
   }
-  & > a {
+  /* & > a {
     font-size: clamp(0.7rem, 3vw, 1rem);
     border: 1px solid #ffffff88;
-  }
+    border: 1px solid red;
+  } */
 }
 
 /* @media screen and (width > 768px) { */
