@@ -5,7 +5,7 @@ import { pozeLucrari } from "@/lib/poze";
 
 const Galerie = () => {
   return (
-    <div className="w-full flex flex-wrap justify-center">
+    <div className="w-full flex flex-wrap justify-center relative">
       {pozeLucrari.map((i,index) => <ImageGalerie key={index} src={i.src} text={i.text} />)}
     </div>
   );

@@ -5,10 +5,10 @@ import styles from "./galerie.module.css";
 const ImageGalerie = ({ text,src }: {src?:string, text?: string }) => {
   return (
     <div className={styles.container}>
-      <h4 className="w-full text-center text-xs md:text-sm font-light md:font-normal py-1">
+      <h4 className="w-full text-center text-xs md:text-sm font-light md:font-normal py-2 min-h-[3rem]">
         &emsp;{text ? text : "Text goes here"}
       </h4>
-      <div className={styles.imageContainer + " h-[12rem] md:h-[30rem]"}>
+      <div className={styles.imageContainer + " min-h-[12rem] md:h-[30rem]"}>
         <Image
           src={src ? src : "/globe.svg"}
           sizes="(max-width: 768px) 50vw"

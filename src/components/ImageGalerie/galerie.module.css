@@ -1,16 +1,17 @@
 .container {
   border-bottom: 1px solid #ffffff55;
-  width: min(100%, 50rem);
+  width: min(95%, 50rem);
   height: fit-content;
   margin-inline: auto;
-  margin: 1rem;
+  margin-block: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column-reverse;
   border-radius: 0.5rem;
-  background: linear-gradient(to right, #1f363d, var(--background), #1f363d);
-  padding-block: 1rem;
+  /* background: linear-gradient(to right, #1f363d, var(--background), #1f363d); */
+  background: linear-gradient(to bottom right, #1F363D, var(--background));
+  border: 1px solid #ffffff33;
 }
 
 .imageContainer {
@@ -19,6 +20,7 @@
 }
 
 .image {
+  padding: 0.25rem;
   width: auto;
   height: 100%;
   object-fit: contain;

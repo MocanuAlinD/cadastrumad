@@ -1,16 +1,17 @@
 import Image from "next/image";
 import React from "react";
-import styles from "./servicii.module.css";
+import styles from "./serviciiCard.module.css";
 
 const ServiciiCard = ({ src, text }: { src?: string; text?: string }) => {
   return (
     <div
       className={
         styles.container +
-        " w-[90%] mx-auto mt-8 flex flex-col-reverse md:flex-row"
+        " w-[90%] mx-auto mt-8 flex flex-col-reverse md:flex-row min-h-[20rem]"
       }
     >
-      <div className="w-[100%] mx-auto md:w-[65%] relative my-auto border-r border-b border-r-[#ffffff33] border-b-[#ffffff00] rounded-xl p-2">
+      {/* <div className="w-[100%] mx-auto md:w-[65%] relative my-auto border-r border-b border-r-[#ffffff33] border-b-[#ffffff00] rounded-xl p-2"> */}
+      <div className="w-[100%] mx-auto md:w-[65%] relative my-auto rounded-xl p-2">
         <Image
           src={src ? src : "/global.svg"}
           alt={text ? text : "Image"}

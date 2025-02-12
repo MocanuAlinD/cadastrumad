@@ -45,7 +45,7 @@ export default function Home() {
             <h4
               className={cx(
                 styles.cardsTitle,
-                "underline underline-offset-4 text-center text-md sm:text-2xl mb-8 mt-12"
+                "text-center text-md sm:text-2xl mb-8 mt-12"
               )}
             >
               Vă stăm la dispoziție cu următoarele, și nu numai:
