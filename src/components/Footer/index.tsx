@@ -6,9 +6,7 @@ const Footer = () => {
 
   return (
     <div className="flex flex-col items-center justify-around border-t border-[var(--background)]">
-      <h2 className={styles.title + " my-12"}>
-        CADASTRU & INTABULARE CONSTANȚA
-      </h2>
+      <h2 className={styles.title + " my-12"}>CADASTRU & INTABULARE< br/>CONSTANȚA</h2>
       <div className="w-full flex flex-col items-center lg:items-start lg:flex-row justify-around">
         <div className={footerColumn}>
           <h3>Contact</h3>
@@ -38,7 +36,7 @@ const Footer = () => {
           </div>
         </div>
         <div className={footerColumn}>col 2</div>
-        <div className={footerColumn}>col 3</div>
+        <div className={footerColumn}>TO-ADD: anpc-sal</div>
       </div>
     </div>
   );

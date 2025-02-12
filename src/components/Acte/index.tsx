@@ -34,7 +34,7 @@ const Acte = () => {
 
 
         <div className={styleWrapper}>
-            <h3 className={styles.h3Category}>Cadastru teren (cu constructie)</h3>
+            <h3 className={styles.h3Category}>Cadastru teren (cu construcție)</h3>
             <ul className={styles.ul}>
                 <li>Acte de proprietate</li>
                 <li>Acte identitate CI/BI</li>
@@ -46,7 +46,7 @@ const Acte = () => {
 
 
         <div className={styleWrapper}>
-            <h3 className={styles.h3Category}>Inscriere constructie (intabulare constructie noua)</h3>
+            <h3 className={styles.h3Category}>Înscriere construcție (intabulare construcție nouă)</h3>
             <ul className={styles.ul}>
                 <li>Acte de proprietate</li>
                 <li>Autorizația de construire</li>
@@ -81,7 +81,7 @@ const Acte = () => {
         </div>
 
         <div className={styleWrapper}>
-            <h3 className={styles.h3Category}>Actualizare imobile cu/fara constructii (modificare suprafata/limite,coordonate)</h3>
+            <h3 className={styles.h3Category}>Actualizare imobile cu/fără construcții (modificare suprafață/limite/coordonate)</h3>
             <ul className={styles.ul}>
                 <li>Asigurare locuință (dacă există locuință)</li>
                 <li>Acte identitate CI/BI</li>
