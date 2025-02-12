@@ -75,7 +75,7 @@ const Menu3D = ({
         ];
 
   const objectLength = _obj.length;
-  const _inclineAngle = inclineAngle ? inclineAngle + "deg" : "-5deg";
+  const _inclineAngle = inclineAngle ? inclineAngle + "deg" : "-3.5deg";
   const _rotationSpeed = rotationSpeed ? rotationSpeed + "s" : "100s";
   const rotateAngle = +(360 / objectLength).toFixed(2);
   const imageWidth = +(pageWidth / 0.965 * Math.sin(Math.PI / objectLength)).toFixed(2);
