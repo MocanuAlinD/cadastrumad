@@ -3,7 +3,6 @@
 import Card from "@/components/Card";
 import cx from "clsx";
 import { cardsContents } from "@/lib/cardsContents";
-import Menu3D from "@/components/Menu3D";
 import styles from "./mainpage.module.css";
 
 export default function Home() {
@@ -51,7 +50,6 @@ export default function Home() {
             >
               Vă stăm la dispoziție cu următoarele, și nu numai:
             </h4>
-            <Menu3D />
 
             <div className="flex flex-wrap justify-center pb-12">
               {cardsContents.map((i, index) => (

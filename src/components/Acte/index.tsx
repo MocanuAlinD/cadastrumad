@@ -8,31 +8,10 @@ const Acte = () => {
         <div className='p-4 mt-4'>
             <h3 className={styles.h3Category}>Cadastru garsoniere/apartamente</h3>
             <ul className={styles.ul}>
-                <li>Acte de proprietate
-                    <ul>
-                        <li>Contract de vânzare-cumpărare (dacă apartamentul a fost cumpărat).</li>
-                        <li>Contract de construire (dacă apartamentul a fost dobândit printr-o asociație de proprietari).</li>
-                        <li>Certificat de moștenitor (dacă apartamentul a fost obținut prin moștenire).</li>
-                        <li>Act de donație (dacă apartamentul a fost primit prin donație).</li>
-                        <li>Sentință judecătorească definitivă (dacă apartamentul a fost obținut prin hotărâre judecătorească).</li>
-                    </ul>
-                </li>
-                <li>Acte de identitate
-                    <ul>
-                        <li>Carte de identitate (CI) / buletin al proprietarului/proprietarilor.</li>
-                    </ul>
-                </li>
-                <li>Extras de carte funciară (după caz)
-                    <ul>
-                        <li>Extras de carte funciară pentru informare, care atestă situația juridică a imobilului (se poate solicita online sau la Oficiul de Cadastru și Publicitate Imobiliară - OCPI).</li>
-                    </ul>
-                </li>
-                <li>Acte tehnice ale imobilului
-                    <ul>
-                        <li>Planul apartamentului (se va realiza de către un inginer cadastrist autorizat).</li>
-                        <li>Releveul apartamentului, în cazul în care există modificări față de documentele inițiale.</li>
-                    </ul>
-                </li>
+                <li>Acte de proprietate </li>
+                <li>Asigurare locuință</li>
+                <li>Extras de carte funciară (după caz) </li>
+                <li>Acte identitate CI/BI</li>
                 <li>Certificat fiscal
                     <ul>
                         <li>Se eliberează de la Direcția de Taxe și Impozite Locale și atestă că proprietarul nu are datorii la stat pentru imobil.</li>
@@ -45,31 +24,8 @@ const Acte = () => {
         <div className='p-4 mt-4'>
             <h3 className={styles.h3Category}>Cadastru teren (fara constructie)</h3>
             <ul className={styles.ul}>
-                <li>Acte de proprietate
-                    <ul>
-                        <li>Contract de vânzare-cumpărare (dacă apartamentul a fost cumpărat).</li>
-                        <li>Contract de construire (dacă apartamentul a fost dobândit printr-o asociație de proprietari).</li>
-                        <li>Certificat de moștenitor (dacă apartamentul a fost obținut prin moștenire).</li>
-                        <li>Act de donație (dacă apartamentul a fost primit prin donație).</li>
-                        <li>Sentință judecătorească definitivă (dacă apartamentul a fost obținut prin hotărâre judecătorească).</li>
-                    </ul>
-                </li>
-                <li>Acte de identitate
-                    <ul>
-                        <li>Carte de identitate (CI) / buletin al proprietarului/proprietarilor.</li>
-                    </ul>
-                </li>
-                <li>Extras de carte funciară (după caz)
-                    <ul>
-                        <li>Extras de carte funciară pentru informare, care atestă situația juridică a imobilului (se poate solicita online sau la Oficiul de Cadastru și Publicitate Imobiliară - OCPI).</li>
-                    </ul>
-                </li>
-                <li>Acte tehnice ale imobilului
-                    <ul>
-                        <li>Planul apartamentului (se va realiza de către un inginer cadastrist autorizat).</li>
-                        <li>Releveul apartamentului, în cazul în care există modificări față de documentele inițiale.</li>
-                    </ul>
-                </li>
+                <li>Acte de proprietate</li>
+                <li>Acte identitate CI/BI</li>
                 <li>Certificat fiscal
                     <ul>
                         <li>Se eliberează de la Direcția de Taxe și Impozite Locale și atestă că proprietarul nu are datorii la stat pentru imobil.</li>
@@ -84,31 +40,9 @@ const Acte = () => {
         <div className='p-4 mt-4'>
             <h3 className={styles.h3Category}>Cadastru teren (cu constructie)</h3>
             <ul className={styles.ul}>
-                <li>Acte de proprietate
-                    <ul>
-                        <li>Contract de vânzare-cumpărare (dacă apartamentul a fost cumpărat).</li>
-                        <li>Contract de construire (dacă apartamentul a fost dobândit printr-o asociație de proprietari).</li>
-                        <li>Certificat de moștenitor (dacă apartamentul a fost obținut prin moștenire).</li>
-                        <li>Act de donație (dacă apartamentul a fost primit prin donație).</li>
-                        <li>Sentință judecătorească definitivă (dacă apartamentul a fost obținut prin hotărâre judecătorească).</li>
-                    </ul>
-                </li>
-                <li>Acte de identitate
-                    <ul>
-                        <li>Carte de identitate (CI) / buletin al proprietarului/proprietarilor.</li>
-                    </ul>
-                </li>
-                <li>Extras de carte funciară (după caz)
-                    <ul>
-                        <li>Extras de carte funciară pentru informare, care atestă situația juridică a imobilului (se poate solicita online sau la Oficiul de Cadastru și Publicitate Imobiliară - OCPI).</li>
-                    </ul>
-                </li>
-                <li>Acte tehnice ale imobilului
-                    <ul>
-                        <li>Planul apartamentului (se va realiza de către un inginer cadastrist autorizat).</li>
-                        <li>Releveul apartamentului, în cazul în care există modificări față de documentele inițiale.</li>
-                    </ul>
-                </li>
+                <li>Acte de proprietate </li>
+                <li>Acte identitate CI/BI</li>
+                <li>Asigurare locuinta</li>
                 <li>Certificat fiscal
                     <ul>
                         <li>Se eliberează de la Direcția de Taxe și Impozite Locale și atestă că proprietarul nu are datorii la stat pentru imobil.</li>
@@ -122,106 +56,13 @@ const Acte = () => {
         <div className='p-4 mt-4'>
             <h3 className={styles.h3Category}>Inscriere constructie (intabulare constructie noua)</h3>
             <ul className={styles.ul}>
-                <li>Acte de proprietate
-                    <ul>
-                        <li>Contract de vânzare-cumpărare (dacă apartamentul a fost cumpărat).</li>
-                        <li>Contract de construire (dacă apartamentul a fost dobândit printr-o asociație de proprietari).</li>
-                        <li>Certificat de moștenitor (dacă apartamentul a fost obținut prin moștenire).</li>
-                        <li>Act de donație (dacă apartamentul a fost primit prin donație).</li>
-                        <li>Sentință judecătorească definitivă (dacă apartamentul a fost obținut prin hotărâre judecătorească).</li>
-                    </ul>
-                </li>
-                <li>Acte de identitate
-                    <ul>
-                        <li>Carte de identitate (CI) / buletin al proprietarului/proprietarilor.</li>
-                    </ul>
-                </li>
-                <li>Extras de carte funciară (după caz)
-                    <ul>
-                        <li>Extras de carte funciară pentru informare, care atestă situația juridică a imobilului (se poate solicita online sau la Oficiul de Cadastru și Publicitate Imobiliară - OCPI).</li>
-                    </ul>
-                </li>
-                <li>Acte tehnice ale imobilului
-                    <ul>
-                        <li>Planul apartamentului (se va realiza de către un inginer cadastrist autorizat).</li>
-                        <li>Releveul apartamentului, în cazul în care există modificări față de documentele inițiale.</li>
-                    </ul>
-                </li>
-                <li>Certificat fiscal
-                    <ul>
-                        <li>Se eliberează de la Direcția de Taxe și Impozite Locale și atestă că proprietarul nu are datorii la stat pentru imobil.</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-
-
-        <div className='p-4 mt-4'>
-            <h3 className={styles.h3Category}>Plan de situație PUZ etc</h3>
-            <ul className={styles.ul}>
-                <li>Acte de proprietate
-                    <ul>
-                        <li>Contract de vânzare-cumpărare (dacă apartamentul a fost cumpărat).</li>
-                        <li>Contract de construire (dacă apartamentul a fost dobândit printr-o asociație de proprietari).</li>
-                        <li>Certificat de moștenitor (dacă apartamentul a fost obținut prin moștenire).</li>
-                        <li>Act de donație (dacă apartamentul a fost primit prin donație).</li>
-                        <li>Sentință judecătorească definitivă (dacă apartamentul a fost obținut prin hotărâre judecătorească).</li>
-                    </ul>
-                </li>
-                <li>Acte de identitate
-                    <ul>
-                        <li>Carte de identitate (CI) / buletin al proprietarului/proprietarilor.</li>
-                    </ul>
-                </li>
-                <li>Extras de carte funciară (după caz)
-                    <ul>
-                        <li>Extras de carte funciară pentru informare, care atestă situația juridică a imobilului (se poate solicita online sau la Oficiul de Cadastru și Publicitate Imobiliară - OCPI).</li>
-                    </ul>
-                </li>
-                <li>Acte tehnice ale imobilului
-                    <ul>
-                        <li>Planul apartamentului (se va realiza de către un inginer cadastrist autorizat).</li>
-                        <li>Releveul apartamentului, în cazul în care există modificări față de documentele inițiale.</li>
-                    </ul>
-                </li>
-                <li>Certificat fiscal
-                    <ul>
-                        <li>Se eliberează de la Direcția de Taxe și Impozite Locale și atestă că proprietarul nu are datorii la stat pentru imobil.</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-
-
-
-        <div className='p-4 mt-4'>
-            <h3 className={styles.h3Category}>Scoatere din extravilan (intra la schimbare categorie de folosinta??????)</h3>
-            <ul className={styles.ul}>
-                <li>Acte de proprietate
-                    <ul>
-                        <li>Contract de vânzare-cumpărare (dacă apartamentul a fost cumpărat).</li>
-                        <li>Contract de construire (dacă apartamentul a fost dobândit printr-o asociație de proprietari).</li>
-                        <li>Certificat de moștenitor (dacă apartamentul a fost obținut prin moștenire).</li>
-                        <li>Act de donație (dacă apartamentul a fost primit prin donație).</li>
-                        <li>Sentință judecătorească definitivă (dacă apartamentul a fost obținut prin hotărâre judecătorească).</li>
-                    </ul>
-                </li>
-                <li>Acte de identitate
-                    <ul>
-                        <li>Carte de identitate (CI) / buletin al proprietarului/proprietarilor.</li>
-                    </ul>
-                </li>
-                <li>Extras de carte funciară (după caz)
-                    <ul>
-                        <li>Extras de carte funciară pentru informare, care atestă situația juridică a imobilului (se poate solicita online sau la Oficiul de Cadastru și Publicitate Imobiliară - OCPI).</li>
-                    </ul>
-                </li>
-                <li>Acte tehnice ale imobilului
-                    <ul>
-                        <li>Planul apartamentului (se va realiza de către un inginer cadastrist autorizat).</li>
-                        <li>Releveul apartamentului, în cazul în care există modificări față de documentele inițiale.</li>
-                    </ul>
-                </li>
+                <li>Acte de proprietate </li>
+                <li>Autorizatia de construire</li>
+                <li>Receptia finala</li>
+                <li>Certificatul de edificare</li>
+                <li>Certificatul energetic</li>
+                <li>Asigurare locuinta</li>
+                <li>Acte identitate CI/BI</li>
                 <li>Certificat fiscal
                     <ul>
                         <li>Se eliberează de la Direcția de Taxe și Impozite Locale și atestă că proprietarul nu are datorii la stat pentru imobil.</li>
@@ -233,11 +74,8 @@ const Acte = () => {
 
 
 
-
-
-
         <div className='p-4 mt-4'>
-            <h3 className={styles.h3Category}>Dezmembrarea sau alipirea (comasarea) imobilelor</h3>
+            <h3 className={styles.h3Category}>RAMAS AICI___Dezmembrarea sau alipirea (comasarea) imobilelor</h3>
             <ul className={styles.ul}>
                 <li>Acte de proprietate
                     <ul>
