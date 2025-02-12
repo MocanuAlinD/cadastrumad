@@ -12,18 +12,17 @@
     background-color: transparent;
     width: 100%;
     & thead tr th {
-      font-size: clamp(0.6rem, 2vw, 1rem);
-      /* font-weight: 400; */
-      /* color: var(--foreground); */
+      font-size: clamp(0.6rem, 2vw, 0.9rem);
       background-color: var(--background);
       color: var(--foreground);
       font-family: var(--fontRose);
       font-weight: 400;
     }
     & td:not(.important, .notaSubsol) {
-      font-size: clamp(0.6rem, 2vw, 0.9rem);
-      border: 1px solid var(--background);
-      padding-inline: 0.5rem;
+      font-size: clamp(0.6rem, 2vw, 0.75rem);
+      border-bottom: 1px solid var(--background);
+      border-left: 1px solid var(--background);
+      padding-inline: 0.2rem;
     }
 
     & tr:nth-child(even) {
@@ -38,16 +37,16 @@
       width: 30%;
     }
     .notaSubsol{
-      /* color: red; */
-      font-size: clamp(0.9rem,2vw,1.3rem);
-      /* font-size: 1.2rem; */
+      font-size: clamp(0.8rem,2vw,1.1rem);
       font-weight: 400;
       font-family: var(--fontRose);
     }
   }
 
-  .table tr td:first-child {
-    /* color: red; */
+  .table tr td:first-child:not(.notaSubsol) {
+    /* color: black; */
+    font-weight: 400;
+    
   }
 }
 

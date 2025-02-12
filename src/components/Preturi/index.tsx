@@ -75,13 +75,13 @@ const Preturi = () => {
             </tr>
             <tr>
               <td>Cadastru teren + casă</td>
-              <td>1600 lei+3 lei/mp releveu</td>
-              <td>1800 lei+3 lei/mp releveu</td>
+              <td>1600 lei+3 lei/mp releveu(opțional)</td>
+              <td>1800 lei+3 lei/mp releveu(opțional)</td>
             </tr>
             <tr>
               <td>Înscriere construcție nouă</td>
-              <td>1000 lei + 3 lei/mp(optional)</td>
-              <td>1200 lei + 3 lei/mp(optional)</td>
+              <td>1000 lei + 3 lei/mp releveu(opțional)</td>
+              <td>1200 lei + 3 lei/mp releveu(opțional)</td>
             </tr>
           </tbody>
         </table>
