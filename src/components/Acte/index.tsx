@@ -83,6 +83,7 @@ const Acte = () => {
         <div className={styleWrapper}>
             <h3 className={styles.h3Category}>Actualizare imobile cu/fără construcții (modificare suprafață/limite/coordonate)</h3>
             <ul className={styles.ul}>
+                <li>Declarație notarială a proprietarului că e de acord cu modificarea suprafeței, limitelor sau coordonatelor.</li>
                 <li>Asigurare locuință (dacă există locuință)</li>
                 <li>Acte identitate CI/BI</li>
                 <li>Extras de carte funciară la toate loturile</li>
