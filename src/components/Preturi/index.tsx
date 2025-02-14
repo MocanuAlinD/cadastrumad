@@ -12,7 +12,7 @@ const Preturi = () => {
             </tr>
             <tr>
               <td colSpan={3} className={styles.notaSubsol + " px-2 leading-6 sm:leading-8"}>
-                - Beneficiați de consultanță gratuită pentru toate tipurile de
+                - Beneficiați de consultanță GRATUITĂ pentru toate tipurile de
                 lucrări.
                 <br />
                 - Tarifele NU INCLUD taxele OCPI (unde se aplică taxe).

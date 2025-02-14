@@ -14,9 +14,6 @@ const ServiciiCard = ({ src, text }: { src?: string; text?: string }) => {
         <Image
           src={src ? src : "/global.svg"}
           alt={text ? text : "Image"}
-          // sizes="(max-width: 768px) 50vw"
-          // width={1920}
-          // height={1080}
           layout="fill"
           className={styles.image}
         />

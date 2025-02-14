@@ -60,20 +60,22 @@ const Footer = () => {
                 width="200"
                 height="0"
                 alt="anpc-sal"
+                className='rounded-2xl'
               />
             </Link>
             <Link href="https://ec.europa.eu/consumers/odr">
-            <Image
-              src="/anpc-sal_02.jpg"
-              width="200"
-              height="0"
-              alt="anpc-sal"
+              <Image
+                src="/anpc-sal_02.jpg"
+                width="200"
+                height="0"
+                alt="anpc-sol"
+                className='rounded-2xl'
               />
-              </Link>
+            </Link>
           </div>
         </div>
       </div>
-      <p className='py-8 mb-4'>© Mocanu Alin-Daniel | 2025</p>
+      <p className="py-8 mb-4">© Mocanu Alin-Daniel | 2025</p>
     </div>
   );
 };

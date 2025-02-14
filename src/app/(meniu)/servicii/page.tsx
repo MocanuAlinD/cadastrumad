@@ -12,6 +12,7 @@ const Servicii = () => {
       </div>
 
       <ServiciiCard src="/cad/dispensar640zoom.png" text="Relevee" />
+      <ServiciiCard src="/cad/axeCasa1080_01.png" text="Trasări axe construcții" />
       <ServiciiCard src="/cad/ciobanu1080.png" text="Ridicări topografice la drumuri." />
       <ServiciiCard src="/cad/bloc01.png" text="Măsurători 3D la clădiri" />
       <ServiciiCard src="/cad/bloc02.png" text="Măsurători 3D la clădiri" />
