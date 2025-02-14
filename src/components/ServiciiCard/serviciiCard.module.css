@@ -1,10 +1,16 @@
 .container{
     /* background: linear-gradient(to bottom right, #101010, #212121); */
     background: linear-gradient(to bottom right, #1F363D, var(--background));
+    /* background: #00000033; */
     border-radius: 0.5rem;
     padding: 1rem;
-    /* border-right: 1px solid #ffffff33; */
     border: 1px solid #ffffff33;
     position: sticky;
-    top: 5rem;
+    top: 4.5rem;
+    /* border: 1px solid red; */
+}
+.image{
+    width: auto;
+    height: 100%;
+    object-fit: contain;
 }

@@ -26,7 +26,7 @@ const Footer = () => {
             <span>Program: </span>&emsp; Luni - Vineri 10 - 18
           </div>
           <div>
-            <span>NRC: </span>&emsp; F2024005030400
+            <span>NRC: </span>&emsp; F40/5030/2024
           </div>
           <div>
             <span>CUI: </span>&emsp; 50361818
