@@ -1,8 +1,11 @@
+import UnderConstruction from '@/components/UnderConstruction'
 import React from 'react'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div className='w-full'>
+      <UnderConstruction />
+    </div>
   )
 }
 

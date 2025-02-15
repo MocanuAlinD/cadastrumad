@@ -60,7 +60,7 @@ const Footer = () => {
                 width="200"
                 height="0"
                 alt="anpc-sal"
-                className='rounded-2xl'
+                className='rounded-2xl w-auto'
               />
             </Link>
             <Link href="https://ec.europa.eu/consumers/odr">
@@ -69,7 +69,7 @@ const Footer = () => {
                 width="200"
                 height="0"
                 alt="anpc-sol"
-                className='rounded-2xl'
+                className='rounded-2xl w-auto'
               />
             </Link>
           </div>

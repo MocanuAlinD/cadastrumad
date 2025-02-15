@@ -40,8 +40,9 @@ const ContentContainer = ({ children }: { children: React.ReactNode }) => {
     width: "100%",
     maxWidth: "100%",
     marginInline: "auto",
+    minHeight: "70vh",
     // comment / remove next two lines in dev or production
-    fontWeight: "400",
+    // fontWeight: "400",
     // letterSpacing: "2px",
   };
 
