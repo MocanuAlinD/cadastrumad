@@ -3,7 +3,7 @@ import React, { useState, useEffect, useCallback } from "react";
 import { cardsContents } from "@/lib/cardsContents";
 import styles from "./menu3d.module.css";
 
-const Menu3D = ({
+const Menu3Dimage = ({
   inclineAngle,
   rotationSpeed,
 }: {
@@ -124,4 +124,4 @@ const Menu3D = ({
   );
 };
 
-export default Menu3D;
+export default Menu3Dimage;
