@@ -1,13 +1,11 @@
-.footerContainer{
-  background-color: rgba(66,129,164,0.3);
+.footerContainer {
+  background-color: rgba(66, 129, 164, 0.3);
   background: url("/footershine.svg") no-repeat;
   background-size: cover;
-  /* border-top: 1px solid var(--blueLight); */
-  /* background-position: right; */
 }
 
 .title {
-  font-size: clamp(0.9rem,2vw,2rem);
+  font-size: clamp(0.9rem, 2vw, 2rem);
   font-weight: bolder;
   font-family: var(--fontRose);
   text-align: center;
@@ -32,20 +30,18 @@
     width: 100%;
     flex-wrap: wrap;
     overflow-wrap: anywhere;
-    & a{
-        color: var(--blueLight);
-        
+    & a {
+      color: var(--blueLight);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
     }
-  }
-  & span {
-    min-width: 6rem;
-    font-weight: bold;
-    font-size: clamp(0.9rem, 2vw, 1rem);
   }
 }
 
-@media screen and (width < 1024px){
-    .footerColumn span{
-        min-width: fit-content;
-    }
+@media screen and (width < 1024px) {
+  .footerColumn span {
+    min-width: fit-content;
+  }
 }
