@@ -17,23 +17,27 @@
     font-weight: 400;
     font-size: clamp(0.6rem, 3vw, 1.2rem);
     margin-bottom: 2rem;
-    width: fit-content ;
+    width: fit-content;
     max-width: 100%;
     height: 100%;
   }
 }
 
-.info{
+.info {
   background-color: var(--foreground);
   color: var(--background);
-  & h3{
+  & h3 {
     font-family: var(--fontRose), sans-serif;
     font-weight: 700;
   }
 }
 
+.cardsSection > h3 {
+  font-family: var(--fontRose), sans-serif;
+  font-weight: 700;
+}
 
-.consultantaContainer{
+.consultantaContainer {
   border: 1px solid red;
   background-color: var(--foreground);
   color: var(--background);
@@ -44,6 +48,6 @@
   padding-block: 2rem;
 }
 
-.cardsTitle{
+.cardsTitle {
   font-family: var(--fontRose), sans-serif;
 }

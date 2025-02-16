@@ -1,19 +1,26 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+
 import styles from "./footer.module.css";
 
 const Footer = () => {
   const footerColumn = `${styles.footerColumn} + " w-[100%] h-fit md:max-w-[30rem] my-[2rem] py-8 flex flex-col items-center lg:items-start`;
 
   return (
-    <div className={styles.footerContainer + " flex flex-col items-center justify-around"}>
+    <div
+      className={
+        styles.footerContainer + " flex flex-col items-center justify-around"
+      }
+    >
       <h2 className={styles.title + " my-12"}>
         CADASTRU & INTABULARE
         <br />
         CONSTANȚA
       </h2>
       <div className="w-full flex flex-col items-center lg:items-start lg:flex-row justify-around">
+
+
         <div className={footerColumn}>
           <h3>Contact</h3>
           <div>
@@ -47,11 +54,22 @@ const Footer = () => {
             <span>PFA: </span>&emsp; Mocanu Alin-Daniel
           </div>
         </div>
+
         <div className={footerColumn}>
-          <p>Politica de confidentialitate</p>
-          <p>Cookies</p>
-          <p>Social media, instagram, facebook</p>
+          <Link href="/politica">
+            <p className="text-[var(--blueLight)] hover:text-blue-700">
+              Politica de confidențialitate
+            </p>
+          </Link>
+          <div className="border border-red-500">
+            <p>Social media, instagram, facebook</p>
+          </div>
+          <div className="border border-red-500">
+            <p>Credits</p>
+          </div>
         </div>
+
+        
         <div className={footerColumn}>
           <div className="flex flex-col gap-4">
             <Link href="https://anpc.ro/ce-este-sal">
@@ -60,7 +78,7 @@ const Footer = () => {
                 width="200"
                 height="0"
                 alt="anpc-sal"
-                className='rounded-2xl w-auto'
+                className="rounded-2xl w-auto"
               />
             </Link>
             <Link href="https://ec.europa.eu/consumers/odr">
@@ -69,7 +87,7 @@ const Footer = () => {
                 width="200"
                 height="0"
                 alt="anpc-sol"
-                className='rounded-2xl w-auto'
+                className="rounded-2xl w-auto"
               />
             </Link>
           </div>

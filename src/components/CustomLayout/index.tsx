@@ -15,7 +15,9 @@ const CustomLayout = ({ children }: { children: React.ReactNode }) => {
         <RadioNav />
       </nav>
 
-      <ContentContainer>{children}</ContentContainer>
+      <main>
+        <ContentContainer>{children}</ContentContainer>
+      </main>
       <footer className={styles.layoutFooter}>
         <Footer />
       </footer>
@@ -30,7 +32,7 @@ const ContentContainer = ({ children }: { children: React.ReactNode }) => {
   const Component = "div";
   const style = {
     // comment / remove next line in dev or production
-    // border: "5px solid white",
+    // border: "3px solid red",
     // backgroundColor: "#0077b6",
     // backgroundColor: "#202020",
     // backgroundColor: "#252422",

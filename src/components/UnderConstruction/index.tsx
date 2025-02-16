@@ -7,8 +7,8 @@ const UnderConstruction = () => {
     <div className={styles.container + " w-fit mx-auto relative h-full py-8"}>
       <Image
         src="/underConstruction.jpeg"
-        width="3000"
-        height="3000"
+        width="1000"
+        height="1000"
         alt="image"
         className={styles.image}
       />

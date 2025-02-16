@@ -1,11 +1,11 @@
-// import Image from "next/image";
-// import profilePic from "../../public/bgmain.jpeg";
 import Card from "@/components/Card";
 import cx from "clsx";
 import { cardsContents } from "@/lib/cardsContents";
 import styles from "./mainpage.module.css";
 
 export default function Home() {
+  const h3Style = "text-lg md:text-5xl font-extrabold text-center";
+
   return (
     <div className="w-full">
       <main className="min-h-full flex flex-col">
@@ -26,7 +26,7 @@ export default function Home() {
               " flex flex-col items-center justify-evenly gap-4 py-12 md:min-h-[40rem]"
             }
           >
-            <h3 className="text-lg md:text-5xl font-extrabold text-center">
+            <h3 className={h3Style}>
               +2300 PROIECTE
               <br />
               +20 ANI EXPERIENȚĂ
@@ -41,15 +41,18 @@ export default function Home() {
             </p>
           </section>
 
-          <section>
-            <h4
+          <section className={styles.cardsSection}>
+            {/* <h4
               className={cx(
                 styles.cardsTitle,
                 "text-center text-md sm:text-2xl mb-8 mt-12"
               )}
             >
               Vă stăm la dispoziție cu următoarele, și nu numai:
-            </h4>
+            </h4> */}
+            <h3 className={cx(h3Style,"py-12")}>
+              Îți suntem alături
+            </h3>
 
             <div className="flex flex-wrap justify-center pb-12">
               {cardsContents.map((i, index) => (
@@ -65,9 +68,7 @@ export default function Home() {
                 " flex flex-col items-center justify-evenly gap-4 py-12 md:min-h-[40rem]"
               }
             >
-              <h3 className="text-lg md:text-5xl font-extrabold text-center">
-                CONSULTANȚĂ GRATUITĂ
-              </h3>
+              <h3 className={h3Style}>CONSULTANȚĂ GRATUITĂ</h3>
               <p className=" max-w-[85%] md:max-w-[50%] leading-6 md:leading-8 text-sm md:text-xl font-normal">
                 &emsp;&emsp;Beneficiezi de consultanță gratuită! Spune-ne cum te
                 putem ajuta, iar noi îți oferim soluția potrivită. Pentru a
