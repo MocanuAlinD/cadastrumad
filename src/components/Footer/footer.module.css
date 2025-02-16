@@ -1,3 +1,11 @@
+.footerContainer{
+  background-color: rgba(66,129,164,0.3);
+  background: url("/footershine.svg") no-repeat;
+  background-size: cover;
+  /* border-top: 1px solid var(--blueLight); */
+  /* background-position: right; */
+}
+
 .title {
   font-size: clamp(0.9rem,2vw,2rem);
   font-weight: bolder;

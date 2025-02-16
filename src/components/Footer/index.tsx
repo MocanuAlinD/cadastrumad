@@ -1,13 +1,13 @@
 import React from "react";
-import styles from "./footer.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import styles from "./footer.module.css";
 
 const Footer = () => {
   const footerColumn = `${styles.footerColumn} + " w-[100%] h-fit md:max-w-[30rem] my-[2rem] py-8 flex flex-col items-center lg:items-start`;
 
   return (
-    <div className="flex flex-col items-center justify-around border-t border-[var(--background)]">
+    <div className={styles.footerContainer + " flex flex-col items-center justify-around"}>
       <h2 className={styles.title + " my-12"}>
         CADASTRU & INTABULARE
         <br />
