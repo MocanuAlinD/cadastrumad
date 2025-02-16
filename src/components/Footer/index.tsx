@@ -47,7 +47,7 @@ const Footer = () => {
             <span>Facebook</span>
             <span className="flex">
               <CiFacebook className="text-2xl text-[var(--blueLight)]" />
-              <Link href="https://www.facebook.com/MocanuCadastruConstanta">
+              <Link target="_blank" href="https://www.facebook.com/MocanuCadastruConstanta">
                 /MocanuCadastruConstanta
               </Link>
             </span>
@@ -69,12 +69,13 @@ const Footer = () => {
 
         <div className={footerColumn}>
           <h3>Linkuri utile</h3>
-          <Link href="/politica" className="text-[var(--blueLight)] hover:text-blue-700" >
-            Politica de confidențialitate
-          </Link>
-          <div>
-            <p className='mx-auto'>Credits</p>
-          </div>
+            <Link
+              href="/politica"
+              className="text-[var(--blueLight)] hover:text-blue-700"
+            >
+              Politica de confidențialitate
+            </Link>
+            <p>Credits</p>
         </div>
 
         <div className={footerColumn}>
