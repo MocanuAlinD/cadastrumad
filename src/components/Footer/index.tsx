@@ -7,7 +7,6 @@ import styles from "./footer.module.css";
 const Footer = () => {
   const footerColumn = `${styles.footerColumn} + " w-[100%] h-fit md:max-w-[30rem] my-[2rem] py-8 flex flex-col items-center lg:items-start`;
   return (
-
     <div
       className={
         styles.footerContainer + " flex flex-col items-center justify-around"
@@ -45,8 +44,8 @@ const Footer = () => {
           </div>
           <div>
             <span>Facebook</span>
-            <span className="flex">
-              <CiFacebook className="text-2xl text-[var(--blueLight)]" />
+            <span className="flex items-center">
+              <CiFacebook className="text-xl text-[var(--blueLight)]" />
               <Link
                 target="_blank"
                 href="https://www.facebook.com/MocanuCadastruConstanta"
@@ -74,11 +73,10 @@ const Footer = () => {
           <h3>Linkuri utile</h3>
           <Link
             href="/politica"
-            className="text-[var(--blueLight)] hover:text-blue-700"
+            className="text-[var(--blueLight)] hover:text-blue-700 mb-2"
           >
             Politica de confidențialitate
           </Link>
-          <p>Credits</p>
           <Link href="https://anpc.ro/ce-este-sal" target="_blank">
             <Image
               src="/anpc-sal_01.jpg"
@@ -99,7 +97,7 @@ const Footer = () => {
           </Link>
         </div>
       </div>
-      <p className="py-8 mb-4">© Mocanu Alin-Daniel | 2025</p>
+      <p className="py-8 mb-4">&copy; Mocanu Alin-Daniel | 2025</p>
     </div>
   );
 };
