@@ -6,8 +6,8 @@ import styles from "./footer.module.css";
 
 const Footer = () => {
   const footerColumn = `${styles.footerColumn} + " w-[100%] h-fit md:max-w-[30rem] my-[2rem] py-8 flex flex-col items-center lg:items-start`;
-
   return (
+
     <div
       className={
         styles.footerContainer + " flex flex-col items-center justify-around"
@@ -47,7 +47,10 @@ const Footer = () => {
             <span>Facebook</span>
             <span className="flex">
               <CiFacebook className="text-2xl text-[var(--blueLight)]" />
-              <Link target="_blank" href="https://www.facebook.com/MocanuCadastruConstanta">
+              <Link
+                target="_blank"
+                href="https://www.facebook.com/MocanuCadastruConstanta"
+              >
                 /MocanuCadastruConstanta
               </Link>
             </span>
@@ -69,36 +72,31 @@ const Footer = () => {
 
         <div className={footerColumn}>
           <h3>Linkuri utile</h3>
-            <Link
-              href="/politica"
-              className="text-[var(--blueLight)] hover:text-blue-700"
-            >
-              Politica de confidențialitate
-            </Link>
-            <p>Credits</p>
-        </div>
-
-        <div className={footerColumn}>
-          <div className="flex flex-col gap-4">
-            <Link href="https://anpc.ro/ce-este-sal">
-              <Image
-                src="/anpc-sal_01.jpg"
-                width="200"
-                height="0"
-                alt="anpc-sal"
-                className="rounded-2xl w-auto"
-              />
-            </Link>
-            <Link href="https://ec.europa.eu/consumers/odr">
-              <Image
-                src="/anpc-sal_02.jpg"
-                width="200"
-                height="0"
-                alt="anpc-sol"
-                className="rounded-2xl w-auto"
-              />
-            </Link>
-          </div>
+          <Link
+            href="/politica"
+            className="text-[var(--blueLight)] hover:text-blue-700"
+          >
+            Politica de confidențialitate
+          </Link>
+          <p>Credits</p>
+          <Link href="https://anpc.ro/ce-este-sal" target="_blank">
+            <Image
+              src="/anpc-sal_01.jpg"
+              width="200"
+              height="0"
+              alt="anpc-sal"
+              className="rounded-2xl w-auto mb-2"
+            />
+          </Link>
+          <Link href="https://ec.europa.eu/consumers/odr" target="_blank">
+            <Image
+              src="/anpc-sal_02.jpg"
+              width="200"
+              height="0"
+              alt="anpc-sol"
+              className="rounded-2xl w-auto"
+            />
+          </Link>
         </div>
       </div>
       <p className="py-8 mb-4">© Mocanu Alin-Daniel | 2025</p>

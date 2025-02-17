@@ -1,5 +1,5 @@
 .topContainer {
-  width: min(95%, 60rem);
+  width: var(--wrapperWidth);
   display: flex;
   justify-content: center;
   align-items: center;

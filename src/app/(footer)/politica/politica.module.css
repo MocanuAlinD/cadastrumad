@@ -1,0 +1,23 @@
+.container {
+  & h3 {
+    font-size: clamp(1.35rem, 3vw, 2rem);
+    font-weight: bold;
+    margin-block: 2rem;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-thickness: 1px;
+    text-align: center;
+  }
+  .wrapper {
+    width: var(--wrapperWidth);
+  }
+  .row{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-block: 2rem;
+    border-bottom: 1px solid #ffffff55;
+    padding-bottom: 1rem;
+  }
+}

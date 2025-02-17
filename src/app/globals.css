@@ -24,6 +24,8 @@
   --fontw300: 300;
   --fontw200: 200;
   --fontw100: 100;
+
+  --wrapperWidth: min(95%, 60rem);
 }
 
 @media (prefers-color-scheme: dark) {
