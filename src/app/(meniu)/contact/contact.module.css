@@ -1,0 +1,31 @@
+.wrapper {
+  width: var(--wrapperWidth);
+  margin-inline: auto;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .itemContainer {
+    width: 100%;
+    margin-block: 2rem;
+    border-bottom: 1px solid var(--grayDark);
+    padding-bottom: 1rem;
+    & h3 {
+      font-size: var(--fonth3);
+      font-weight: 600;
+      text-decoration: underline;
+      text-underline-offset: 0.25rem;
+      text-decoration-thickness: 1px;
+    }
+    & p{
+        /* border: 1px solid red; */
+        font-size: clamp(0.7rem, 2vw, 1rem);
+      }
+      & :nth-child(2){
+        color: var(--orange);
+        padding-block: 0.5rem;
+        font-size: clamp(0.85rem, 2vw, 1.2rem);
+    }
+  }
+}
