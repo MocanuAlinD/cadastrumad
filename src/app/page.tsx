@@ -5,7 +5,7 @@ import styles from "./mainpage.module.css";
 
 export default function Home() {
   const h3Style = "text-lg md:text-5xl font-extrabold text-center text-[var(--primaryColor)]";
-  const h3Styletitle = "text-lg md:text-5xl font-extrabold text-center text-[var(--secondaryColor)]";
+  const h3StyleDark = "text-lg md:text-5xl font-extrabold text-center text-[var(--secondaryColor)]";
 
   return (
     <div className="w-full">
@@ -27,7 +27,7 @@ export default function Home() {
               " flex flex-col items-center justify-evenly gap-4 py-12 md:min-h-[40rem]"
             }
           >
-            <h3 className={h3Styletitle}>
+            <h3 className={h3StyleDark}>
               +2300 PROIECTE
               <br />
               +20 ANI EXPERIENȚĂ
@@ -69,7 +69,7 @@ export default function Home() {
                 " flex flex-col items-center justify-evenly gap-4 py-12 md:min-h-[40rem]"
               }
             >
-              <h3 className={h3Style}>CONSULTANȚĂ GRATUITĂ</h3>
+              <h3 className={h3StyleDark}>CONSULTANȚĂ GRATUITĂ</h3>
               <p className=" max-w-[85%] md:max-w-[50%] leading-6 md:leading-8 text-sm md:text-xl font-normal">
                 &emsp;&emsp;Beneficiezi de consultanță gratuită! Spune-ne cum te
                 putem ajuta, iar noi îți oferim soluția potrivită. Pentru a
