@@ -1,7 +1,16 @@
+.container{
+  width: min(90%,30rem);
+  margin-inline: auto;
+  color: var(--background);
+  background-color: var(--foreground);
+  margin-block: 2rem;
+  height: fit-content;
+  border-radius: 0.5rem;
+  padding-inline: 1rem;
+}
 .wrapper {
   width: var(--wrapperWidth);
   margin-inline: auto;
-  padding-top: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,20 +21,33 @@
     border-bottom: 1px solid var(--grayDark);
     padding-bottom: 1rem;
     & h3 {
-      font-size: var(--fonth3);
+      /* font-size: var(--fonth3);
+      font-size: clamp(0.8rem, 2vw, 1rem);
       font-weight: 600;
+      letter-spacing: 1px;
       text-decoration: underline;
       text-underline-offset: 0.25rem;
       text-decoration-thickness: 1px;
+      font-family: var(--fontRose); */
+      font-size: clamp(2rem, 2vw, 4rem);
     }
-    & p{
-        /* border: 1px solid red; */
-        font-size: clamp(0.7rem, 2vw, 1rem);
-      }
-      & :nth-child(2){
-        color: var(--orange);
-        padding-block: 0.5rem;
-        font-size: clamp(0.85rem, 2vw, 1.2rem);
+    & h4{
+      font-family: var(--fontRose);
+      font-style: normal;
+      font-weight: 600;
+      color: var(--orange);
+      padding-block: 0.5rem;
+      font-size: clamp(0.9rem, 2vw, 1.1rem);
+      text-align: end;
     }
+    & .program{
+      font-size: clamp(0.65rem, 2vw, 0.85rem);
+      text-align: end;
+    }
+    & .text{
+      font-family: var(--fontRose);
+      font-size: clamp(0.75rem, 2vw, 0.95rem);
+    }
+    
   }
 }

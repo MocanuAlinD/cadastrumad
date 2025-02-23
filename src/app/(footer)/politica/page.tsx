@@ -43,7 +43,7 @@ const Politica = () => {
           <h4 className={h4Style}>4. Link-uri către alte website-uri</h4>
           <p className={pStyle}>
             &emsp;Website-ul nostru poate conține link-uri către alte pagini web
-            ale unor terțe părți. Nu ne asumă responsabilitatea pentru
+            ale unor terțe părți. Nu ne asumăm responsabilitatea pentru
             conținutul sau politicile de confidențialitate ale acestor
             website-uri. Vă recomandăm să citiți politica de confidențialitate a
             fiecărui site pe care îl vizitați.

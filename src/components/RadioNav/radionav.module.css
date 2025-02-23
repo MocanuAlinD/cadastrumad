@@ -48,6 +48,8 @@
     background-color: var(--foreground);
     width: min(100%, 15rem);
     clip-path: var(--clip);
+    border-bottom: 5px solid var(--background);
+    border-left: 5px solid var(--background);
     .label{
       margin-block: 0.5rem;
     }

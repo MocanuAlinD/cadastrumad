@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "./navigation.module.css";
 import Link from "next/link";
+import styles from "./navigation.module.css";
 
 // TODO:
 // Navigatia sa se faca blur cand dai scroll in jos (observer, ia de la model facut deja)
