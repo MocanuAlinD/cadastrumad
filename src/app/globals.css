@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --background: #ededed;
-  --foreground: #012a38;
-  --foregroundgray: #012a38cc;
+  --primaryColor: #ededed;
+  --secondaryColor: #012a38;
+  --secondaryColorgray: #012a38cc;
   --cardWidth: min(90%, 25rem);
   --orange: #ee6c4d;
   --gray: #c0c0c0;
@@ -30,15 +30,16 @@
   --wrapperWidth: min(95%, 60rem);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
-    --background: #012a38;
-    --foreground: #ededed;
+    --primaryColor: #ededed;
+    --secondaryColor: #012a38;
+
   }
-}
+} */
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  color: var(--secondaryColor);
+  background: var(--primaryColor);
   font-family: Poppins, Arial, Helvetica, sans-serif;
 }

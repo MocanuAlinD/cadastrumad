@@ -32,8 +32,8 @@
           height: fit-content;
           min-height: 12rem;
           padding: 0.5rem;
-          background: var(--foreground);
-          color: var(--background);
+          background: var(--primaryColor);
+          color: var(--secondaryColor);
           border-top-right-radius: 0.5rem;
           border-top-left-radius: 0.5rem;
           backface-visibility: hidden;
@@ -45,14 +45,14 @@
             width: var(--bRadius);
             right: 0%;
             bottom: 0;
-            background-color: var(--background);
+            background-color: var(--secondaryColor);
             border-top-left-radius: var(--bRadius);
             transition: all 0.35s ease-in-out 0.25s;
           }
           & .title {
             font-size: clamp(0.8rem, 3vw, 1.1rem);
             font-family: var(--fontRose);
-            color: var(--background);
+            color: var(--secondaryColor);
             width: 100%;
             text-align: center;
             transition: all 0.35s ease-in-out;
@@ -60,7 +60,7 @@
           & .content {
             font-size: clamp(0.65rem, 2vw, 0.8rem);
             font-weight: 400;
-            color: var(--foregroundgray);
+            color: var(----secondaryColorgray);
           }
         }
         .imageBackground {

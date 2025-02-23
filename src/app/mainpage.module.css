@@ -24,8 +24,8 @@
 }
 
 .info {
-  background-color: var(--foreground);
-  color: var(--background);
+  background-color: var(--primaryColor);
+  color: var(--secondaryColor);
   & h3 {
     font-family: var(--fontRose), sans-serif;
     font-weight: 700;
@@ -39,8 +39,8 @@
 
 .consultantaContainer {
   border: 1px solid red;
-  background-color: var(--foreground);
-  color: var(--background);
+  background-color: var(--primaryColor);
+  color: var(--secondaryColor);
   display: flex;
   justify-content: center;
   align-items: center;

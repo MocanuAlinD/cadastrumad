@@ -16,7 +16,7 @@
   & h3 {
     font-weight: bold;
     font-size: clamp(1.2rem, 2vw, 1.4rem);
-    color: var(--background);
+    color: var(--secondaryColor);
     margin-bottom: 1rem;
     text-decoration: underline;
     text-underline-offset: 0.3rem;
@@ -30,6 +30,9 @@
     width: 100%;
     flex-wrap: wrap;
     overflow-wrap: anywhere;
+    & span{
+      color: var(--secondaryColor);
+    }
     & a {
       color: var(--blueLight);
       display: flex;

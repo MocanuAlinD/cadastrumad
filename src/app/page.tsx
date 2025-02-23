@@ -4,7 +4,8 @@ import { cardsContents } from "@/lib/cardsContents";
 import styles from "./mainpage.module.css";
 
 export default function Home() {
-  const h3Style = "text-lg md:text-5xl font-extrabold text-center";
+  const h3Style = "text-lg md:text-5xl font-extrabold text-center text-[var(--primaryColor)]";
+  const h3Styletitle = "text-lg md:text-5xl font-extrabold text-center text-[var(--secondaryColor)]";
 
   return (
     <div className="w-full">
@@ -26,7 +27,7 @@ export default function Home() {
               " flex flex-col items-center justify-evenly gap-4 py-12 md:min-h-[40rem]"
             }
           >
-            <h3 className={h3Style}>
+            <h3 className={h3Styletitle}>
               +2300 PROIECTE
               <br />
               +20 ANI EXPERIENȚĂ

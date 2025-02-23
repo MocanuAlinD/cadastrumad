@@ -36,7 +36,7 @@ const ContentContainer = ({ children }: { children: React.ReactNode }) => {
     // backgroundColor: "#0077b6",
     // backgroundColor: "#202020",
     // backgroundColor: "#252422",
-    backgroundColor: "var(--background)",
+    backgroundColor: "var(--secondaryColor)",
     display: "flex",
     flexGrow: "1",
     width: "100%",

@@ -1,5 +1,6 @@
 .acteContainer {
   width: var(--wrapperWidth);
+  color: var(--primaryColor);
 }
 
 .title {

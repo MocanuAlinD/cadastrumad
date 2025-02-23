@@ -1,6 +1,6 @@
 .container{
     /* background: linear-gradient(to bottom right, #101010, #212121); */
-    background: linear-gradient(to bottom right, #1F363D, var(--background));
+    background: linear-gradient(to bottom right, #1F363D, var(--secondaryColor));
     /* background: #00000033; */
     border-radius: 0.5rem;
     padding: 1rem;

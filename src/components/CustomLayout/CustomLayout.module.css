@@ -1,6 +1,5 @@
 .layoutTopContainer {
-  background-color: var(--foreground);
-  /* background-color: transparent; */
+  background-color: var(--primaryColor);
   display: flex;
   flex-direction: column;
   min-height: 100svh;
@@ -19,14 +18,7 @@
     z-index: 99999;
   }
   & > .layoutFooter {
-    /* border-top: 1px solid #ffffff33; */
-    /* height: fit-content; */
-    /* min-height: 10rem; */
     font-weight: 400;
-    /* letter-spacing: 2px; */
-    color: var(--background);
-    /* padding-block: 2rem; */
-    /* border: 3px solid red; */
-    /* display: flex; */
+    color: var(--secondaryColor);
   }
 }

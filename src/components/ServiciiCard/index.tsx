@@ -18,7 +18,7 @@ const ServiciiCard = ({ src, text }: { src?: string; text?: string }) => {
           className={styles.image}
         />
       </div>
-      <h4 className="w-full md:w-[35%] flex items-center text-xs md:text-base font-extralight md:font-normal pb-4 md:pb-0 md:ps-4">&emsp;{text ? text : "Text goes here"}</h4>
+      <h4 className="w-full md:w-[35%] flex items-center text-xs md:text-base font-extralight md:font-normal pb-4 md:pb-0 md:ps-4 text-[var(--primaryColor)]">&emsp;{text ? text : "Text goes here"}</h4>
     </div>
   );
 };

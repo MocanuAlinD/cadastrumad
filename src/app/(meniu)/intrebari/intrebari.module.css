@@ -2,15 +2,15 @@
     width: var(--wrapperWidth);
     font-family: var(--fontRose);
     .topWrapper{
-        color: var(--background);
+        color: var(--secondaryColor);
         .wrapper{
             padding: 1rem;
             margin-block: 1rem;
-            background-color: var(--foreground);
+            background-color: var(--primaryColor);
             border-radius: 0.5rem;
             & h3{
                 font-size: var(--fonth3);
-                border-bottom: 1px solid var(--background);
+                border-bottom: 1px solid var(--secondaryColor);
                 margin-bottom: 1rem;
                 font-weight: 800;
             }

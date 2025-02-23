@@ -9,8 +9,8 @@
   align-items: center;
   flex-direction: column-reverse;
   border-radius: 0.5rem;
-  /* background: linear-gradient(to right, #1f363d, var(--background), #1f363d); */
-  background: linear-gradient(to bottom right, #1F363D, var(--background));
+  /* background: linear-gradient(to right, #1f363d, var(--secondaryColor), #1f363d); */
+  background: linear-gradient(to bottom right, #1F363D, var(--secondaryColor));
   border: 1px solid #ffffff33;
 }
 
