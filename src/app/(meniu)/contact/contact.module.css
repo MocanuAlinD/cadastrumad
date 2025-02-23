@@ -1,5 +1,5 @@
 .container{
-  width: min(90%,30rem);
+  width: min(95%,30rem);
   margin-inline: auto;
   color: var(--background);
   background-color: var(--foreground);

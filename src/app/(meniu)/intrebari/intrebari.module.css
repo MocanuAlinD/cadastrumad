@@ -1,0 +1,33 @@
+.container{
+    width: var(--wrapperWidth);
+    font-family: var(--fontRose);
+    .topWrapper{
+        color: var(--background);
+        .wrapper{
+            padding: 1rem;
+            margin-block: 1rem;
+            background-color: var(--foreground);
+            border-radius: 0.5rem;
+            & h3{
+                font-size: var(--fonth3);
+                border-bottom: 1px solid var(--background);
+                margin-bottom: 1rem;
+                font-weight: 800;
+            }
+            & h4{
+                font-size: clamp(0.9rem,2vw,1.2rem);
+                margin-bottom: 1rem;
+            }
+            & p{
+                margin-top: 1rem;
+                font-size: var(--fontp);
+            }
+            & ul li{
+                list-style-type: disc;
+                list-style-position: inside;
+                font-size: var(--fontp);
+                font-size: clamp(0.75rem,2vw,0.95rem);
+            }
+        }
+    }
+}

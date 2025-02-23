@@ -25,6 +25,7 @@
   --fontw200: 200;
   --fontw100: 100;
   --fonth3: clamp(1rem, 3vw, 1.3rem);
+  --fontp: clamp(0.75rem, 2vw, 1.05rem);
 
   --wrapperWidth: min(95%, 60rem);
 }
