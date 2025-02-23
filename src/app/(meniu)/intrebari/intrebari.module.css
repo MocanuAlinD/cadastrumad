@@ -27,6 +27,11 @@
                 list-style-position: inside;
                 font-size: var(--fontp);
                 font-size: clamp(0.75rem,2vw,0.95rem);
+                & span{
+                    font-weight: 600;
+                    text-decoration: underline;
+                    text-underline-offset: 0.1rem;
+                }
             }
         }
     }
