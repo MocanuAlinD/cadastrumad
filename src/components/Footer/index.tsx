@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { CiFacebook } from "react-icons/ci";
+// import { CiFacebook } from "react-icons/ci";
 import styles from "./footer.module.css";
 
 const Footer = () => {
@@ -38,11 +38,11 @@ const Footer = () => {
           <div>
             <span>Email</span>
             &emsp;
-            <a href="mailto:cadastru_mocanu@yahoo.com">
-              cadastru_mocanu@yahoo.com
+            <a href="mailto:topoaz@yahoo.com">
+              TopoAZ@yahoo.com
             </a>
           </div>
-          <div>
+          {/* <div>
             <span>Facebook</span>
             <span className="flex items-center">
               <CiFacebook className="text-xl text-[var(--blueLight)]" />
@@ -53,7 +53,7 @@ const Footer = () => {
                 /MocanuCadastruConstanta
               </Link>
             </span>
-          </div>
+          </div> */}
           <div>
             <span>Program</span>
             <span> &emsp;Luni - Vineri 10 - 18</span>

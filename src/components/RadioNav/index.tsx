@@ -15,8 +15,8 @@ const Navigation = () => {
   const [open, setOpen] = useState(false)
 
   return (
-    <div className={styles.topContainer + " px-2 md:px-16 flex items-center justify-around h-full w-full"}>
-      <h1 className={cx(styles.titleLogo,"cursor-pointer")} onClick={() => router.push("/")}>Cadastru</h1>
+    <div className={styles.topContainer + " px-2 md:px-0 flex items-center justify-around h-full w-full"}>
+      <h1 className={cx(styles.titleLogo,"cursor-pointer")} onClick={() => router.push("/")}>Topo de la A la Z</h1>
       <button className='text-black lg:hidden flex underline underline-offset-4' onClick={() => setOpen(!open)}>Meniu</button>
       <div className={styles.navContainer} 
       style={{

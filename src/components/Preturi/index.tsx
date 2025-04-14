@@ -17,6 +17,8 @@ const Preturi = () => {
                 <br />
                 - Tarifele NU INCLUD taxele OCPI (unde se aplică taxe).
                 <br />
+                - Tarifele pentru taxele OCPI se calculează după analiza completă a actelor.
+                <br />
                 - Tarifele sunt informative și diferă în funcție de acte și
                 complexitate.
                 <br />- Tarifele afișate reprezintă valorile minimale și pot
@@ -41,13 +43,13 @@ const Preturi = () => {
           <tbody>
             <tr>
               <td>Cadastru garsoniera/apartament 2 camere</td>
-              <td>650 lei</td>
+              <td>700 lei</td>
               <td>750 lei</td>
             </tr>
             <tr>
               <td>Cadastru apartament 3-4 camere</td>
               <td>800 lei</td>
-              <td>950 lei</td>
+              <td>850 lei</td>
             </tr>
             <tr>
               <td>Apartamentare</td>
@@ -102,13 +104,13 @@ const Preturi = () => {
               <td>550 lei/lot</td>
               <td>650 lei/lot</td>
             </tr>
-            <tr>
+            {/* <tr>
               <td>Apartamentare</td>
               <td>400 lei/UI</td>
               <td>500 lei/UI</td>
-            </tr>
+            </tr> */}
             <tr>
-              <td>Alipire(comasare)</td>
+              <td>Alipire (comasare)</td>
               <td>300 lei/lot</td>
               <td>400 lei/lot</td>
             </tr>
@@ -181,29 +183,44 @@ const Preturi = () => {
           </thead>
           <tbody>
             <tr>
-              <td>Plan situație/topografic</td>
+              <td>Plan situație/topografic (&lt;= 1000mp)</td>
               <td>600 lei</td>
               <td>750 lei</td>
             </tr>
             <tr>
-              <td>Ridicare topografică</td>
+              <td>Ridicare topografică (&lt;= 1000mp)</td>
               <td>600 lei</td>
               <td>750 lei</td>
             </tr>
             <tr>
-              <td>Înțărușare teren intravilan</td>
+              <td>Înțărușare teren intravilan (&lt;= 12 pct)</td>
               <td>400 lei</td>
               <td>600 lei</td>
             </tr>
             <tr>
-              <td>Înțărușare teren extravilan</td>
+              <td>Înțărușare teren extravilan (&lt;= 12 pct)</td>
               <td>450 lei</td>
               <td>650 lei</td>
             </tr>
             <tr>
-              <td>Trasări axe construcții</td>
+              <td>Trasări axe construcții (&lt;= 20 pct)</td>
               <td>450 lei</td>
-              <td>600 lei</td>
+              <td>650 lei</td>
+            </tr>
+            <tr>
+              <td>Plan de situație/ridicare topografică peste 1000mp</td>
+              <td>150 lei/400mp</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Punct înțărușare intravilan/extravilan peste limită</td>
+              <td>30 lei</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Punct trasare axe peste cele 20</td>
+              <td>30 lei</td>
+              <td>-</td>
             </tr>
           </tbody>
         </table>
