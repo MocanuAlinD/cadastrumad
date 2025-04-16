@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Satisfy, Red_Rose } from "next/font/google";
 import "./globals.css";
 import CustomLayout from "@/components/CustomLayout";
+import { Analytics } from "@vercel/analytics/next";
 
 const sati = Satisfy({
   variable: "--font-sati",
@@ -41,6 +42,7 @@ export default function RootLayout({
         className={`${redRose.variable} ${sati.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <CustomLayout>{children}</CustomLayout>
+        <Analytics />
       </body>
     </html>
   );
