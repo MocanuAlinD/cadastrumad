@@ -51,11 +51,11 @@ const Preturi = () => {
               <td>800 lei</td>
               <td>850 lei</td>
             </tr>
-            <tr>
+            {/* <tr>
               <td>Apartamentare</td>
               <td>300 lei/UI</td>
               <td>400 lei/UI</td>
-            </tr>
+            </tr> */}
           </tbody>
         </table>
       </div>
