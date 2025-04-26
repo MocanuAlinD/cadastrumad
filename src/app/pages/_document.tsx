@@ -4,7 +4,9 @@ export default function Document() {
   return (
     <Html>
       <Head>
+        {/* <meta name="theme-color" content="#ffffff" /> */}
         {/* You can add any additional scripts, styles, or meta tags here */}
+        {/* <link rel="icon" href="/totalstation.png" /> */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         {/* <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin /> */}
         <link

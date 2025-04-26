@@ -29,6 +29,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Cadastru",
   description: "Cadastru",
+  icons: {
+    icon: '/totalstation32.png',
+    shortcut: '/totalstation32.png',
+    apple: '/totalstation32.png',
+  },
 };
 
 export default function RootLayout({
