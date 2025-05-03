@@ -42,7 +42,7 @@ const Preturi = () => {
           </thead>
           <tbody>
             <tr>
-              <td>Cadastru garsoniera/apartament 2 camere</td>
+              <td>Cadastru garsonieră/apartament 2 camere</td>
               <td>700 lei</td>
               <td>750 lei</td>
             </tr>
@@ -82,8 +82,8 @@ const Preturi = () => {
             </tr>
             <tr>
               <td>Înscriere construcție nouă</td>
-              <td>1000 lei + 3 lei/mp releveu(opțional)</td>
-              <td>1200 lei + 3 lei/mp releveu(opțional)</td>
+              <td>1500 lei + 3 lei/mp releveu(opțional)</td>
+              <td>1700 lei + 3 lei/mp releveu(opțional)</td>
             </tr>
           </tbody>
         </table>
@@ -111,8 +111,8 @@ const Preturi = () => {
             </tr> */}
             <tr>
               <td>Alipire (comasare)</td>
-              <td>300 lei/lot</td>
               <td>400 lei/lot</td>
+              <td>500 lei/lot</td>
             </tr>
           </tbody>
         </table>
