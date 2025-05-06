@@ -25,6 +25,10 @@ const Preturi = () => {
                 varia în funcție de specificul și complexitatea fiecărei
                 lucrări. O estimare corectă va fi calculată după analiza tuturor
                 detaliilor necesare pentru realizarea proiectului.
+                <br />- Plata pentru serviciile de cadastru se efectuează în două etape:
+                <br />&emsp;1 - 50% din tarif la începerea lucrărilor, în ziua efectuării măsurătorilor, achitat cash sau prin transfer bancar.
+                <br />&emsp;2 - Diferența de 50% se achită cu 24-48 de ore înainte de depunerea dosarului la Oficiul de Cadastru, cash sau transfer bancar.
+                <br /> - Această structură ne permite să lucrăm eficient și să respectăm termenele de predare. Documentele finale vor fi transmise pe email sau predate în format fizic clientului.
               </td>
             </tr>
           </tbody>
