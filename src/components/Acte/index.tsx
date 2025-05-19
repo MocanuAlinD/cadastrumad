@@ -87,7 +87,7 @@ const Acte = () => {
                 <li>Declarație notarială a proprietarului că e de acord cu modificarea suprafeței, limitelor sau coordonatelor.</li>
                 <li>Asigurare locuință (dacă există locuință)</li>
                 <li>Acte identitate CI/BI</li>
-                <li>Extras de carte funciară la toate loturile</li>
+                <li>Extras de carte funciară</li>
             </ul>
         </div>
 
