@@ -67,7 +67,7 @@ const Acte = () => {
                 <li>Extras de carte funciară</li>
                 <li>Acte identitate CI/BI</li>
                 {/* <li>Certificat de urbanism dacă se dezmembrează mai mult de 2 loturi</li> */}
-                <li>Certificat de urbanism sau declarație pe proprie răspundere.</li>
+                <li>Certificat de urbanism.</li>
             </ul>
         </div>
 

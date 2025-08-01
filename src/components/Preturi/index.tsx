@@ -47,13 +47,13 @@ const Preturi = () => {
           <tbody>
             <tr>
               <td>Cadastru garsonieră/apartament 2 camere</td>
-              <td>700 lei</td>
-              <td>750 lei</td>
+              <td>800 lei</td>
+              <td>1000 lei</td>
             </tr>
             <tr>
               <td>Cadastru apartament 3-4 camere</td>
-              <td>800 lei</td>
-              <td>850 lei</td>
+              <td>900 lei</td>
+              <td>1100 lei</td>
             </tr>
             {/* <tr>
               <td>Apartamentare</td>
@@ -76,13 +76,13 @@ const Preturi = () => {
           <tbody>
             <tr>
               <td>Cadastru teren</td>
-              <td>1500 lei</td>
               <td>1700 lei</td>
+              <td>1900 lei</td>
             </tr>
             <tr>
               <td>Cadastru teren + casă</td>
-              <td>1600 lei+3 lei/mp releveu(opțional)</td>
               <td>1800 lei+3 lei/mp releveu(opțional)</td>
+              <td>2000 lei+3 lei/mp releveu(opțional)</td>
             </tr>
             <tr>
               <td>Înscriere construcție nouă</td>
@@ -105,8 +105,8 @@ const Preturi = () => {
           <tbody>
             <tr>
               <td>Dezmembrare</td>
-              <td>550 lei/lot</td>
-              <td>650 lei/lot</td>
+              <td>700 lei/lot</td>
+              <td>850 lei/lot</td>
             </tr>
             {/* <tr>
               <td>Apartamentare</td>
@@ -115,8 +115,8 @@ const Preturi = () => {
             </tr> */}
             <tr>
               <td>Alipire (comasare)</td>
-              <td>400 lei/lot</td>
-              <td>500 lei/lot</td>
+              <td>600 lei/lot</td>
+              <td>750 lei/lot</td>
             </tr>
           </tbody>
         </table>
@@ -188,42 +188,42 @@ const Preturi = () => {
           <tbody>
             <tr>
               <td>Plan situație/topografic (&lt;= 1000mp)</td>
-              <td>600 lei</td>
-              <td>750 lei</td>
+              <td>700 lei</td>
+              <td>850 lei</td>
             </tr>
             <tr>
               <td>Ridicare topografică (&lt;= 1000mp)</td>
-              <td>600 lei</td>
-              <td>750 lei</td>
+              <td>700 lei</td>
+              <td>850 lei</td>
             </tr>
             <tr>
               <td>Înțărușare teren intravilan (&lt;= 12 pct)</td>
-              <td>400 lei</td>
-              <td>600 lei</td>
+              <td>500 lei</td>
+              <td>700 lei</td>
             </tr>
             <tr>
               <td>Înțărușare teren extravilan (&lt;= 12 pct)</td>
-              <td>450 lei</td>
+              <td>550 lei</td>
               <td>650 lei</td>
             </tr>
             <tr>
               <td>Trasări axe construcții (&lt;= 20 pct)</td>
-              <td>450 lei</td>
-              <td>650 lei</td>
+              <td>500 lei</td>
+              <td>750 lei</td>
             </tr>
             <tr>
-              <td>Plan de situație/ridicare topografică peste 1000mp</td>
-              <td>150 lei/400mp</td>
+              <td>Plan de situație/topografic (&gt; 1000mp)</td>
+              <td>700 + 150 lei/400mp</td>
               <td>-</td>
             </tr>
             <tr>
-              <td>Punct înțărușare intravilan/extravilan peste limită</td>
-              <td>30 lei</td>
+              <td>Punct înțărușare intravilan/extravilan (&gt; 12 pct)</td>
+              <td>40 lei / punct</td>
               <td>-</td>
             </tr>
             <tr>
-              <td>Punct trasare axe peste cele 20</td>
-              <td>30 lei</td>
+              <td>Punct trasare axe (&gt; 20 pct)</td>
+              <td>40 lei / punct</td>
               <td>-</td>
             </tr>
           </tbody>

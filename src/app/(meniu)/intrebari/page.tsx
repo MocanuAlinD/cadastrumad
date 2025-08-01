@@ -1,31 +1,36 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import cx from "clsx";
 import styles from "./intrebari.module.css";
 
 const Intrebari = () => {
-  return (
-    <div className={cx(styles.container, "mx-auto my-4")}>
-      <div className={styles.topWrapper}>
-        <div className={cx(styles.wrapper, "")}>
-          <details>
-            <summary>Când am nevoie de cadastru?</summary>
-            <p>
-              Cadastrul este necesar în mai multe situații, atât pentru
-              apartamente, cât și pentru terenuri sau terenuri cu case. Este
-              obligatoriu în cazul vânzării, succesiunii, partajului sau
-              ipotecării unui imobil. De asemenea, este necesar pentru obținerea
-              autorizației de construire, intabularea dreptului de proprietate
-              sau în situația unor actualizări ale documentației cadastrale (de
-              exemplu, modificări aduse construcțiilor sau terenului). Cadastrul
-              asigură identificarea exactă a proprietății în registrele oficiale
-              și oferă siguranță juridică asupra dreptului de proprietate.
-            </p>
-          </details>
-        </div>
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
-        <div className={cx(styles.wrapper, "")}>
-          <details>
-            <summary>Când se solicită certificatul energetic?</summary>
+  const handleToggle = (index: number) => {
+    setOpenIndex(prevIndex => (prevIndex === index ? null : index));
+  };
+
+  const questions = [
+    {
+      summary: "Când am nevoie de cadastru?",
+      content: (
+        <p>
+          Cadastrul este necesar în mai multe situații, atât pentru apartamente,
+          cât și pentru terenuri sau terenuri cu case. Este obligatoriu în cazul
+          vânzării, succesiunii, partajului sau ipotecării unui imobil. De
+          asemenea, este necesar pentru obținerea autorizației de construire,
+          intabularea dreptului de proprietate sau în situația unor actualizări
+          ale documentației cadastrale (de exemplu, modificări aduse
+          construcțiilor sau terenului). Cadastrul asigură identificarea exactă a
+          proprietății în registrele oficiale și oferă siguranță juridică asupra
+          dreptului de proprietate.
+        </p>
+      )
+    },
+    {
+        summary: "Când se solicită certificatul energetic?",
+        content: (
+            <>
             <h4>
               Certificatul energetic este necesar în anumite situații legale și
               administrative legate de clădiri, cu scopul de a evalua și
@@ -89,12 +94,13 @@ const Intrebari = () => {
               eficiente, până la G, pentru cele mai puțin eficiente) și
               recomandări pentru îmbunătățirea performanței energetice.
             </p>
-          </details>
-        </div>
-
-        <div className={cx(styles.wrapper, "")}>
-          <details>
-            <summary>Când se solicită certificatul de urbanism?</summary>
+            </>
+        )
+    },
+    {
+        summary: "Când se solicită certificatul de urbanism?",
+        content: (
+            <>
             <h4>
               Certificatul de urbanism este un document oficial emis de
               autoritățile locale (de obicei primăria), care oferă informații
@@ -160,7 +166,7 @@ const Intrebari = () => {
                 <span>În cazul obținerii unor autorizații speciale:</span> Dacă
                 proiectul tău presupune activități care necesită autorizații
                 speciale (de exemplu, activități care afectează mediul sau zone
-                protejate), certificatul de urbanism va oferi informațiile
+                protejate), certificatul de urbanism va oferă informațiile
                 relevante referitoare la reglementările suplimentare care
                 trebuie respectate.
               </li>
@@ -174,14 +180,13 @@ const Intrebari = () => {
               actualizat dacă trece un timp mai îndelungat până când se începe
               proiectul.
             </p>
-          </details>
-        </div>
-
-        <div className={cx(styles.wrapper, "")}>
-          <details>
-            <summary>
-              Când am nevoie de relevee la o construcție sau un apartament?
-            </summary>
+            </>
+        )
+    },
+    {
+        summary: "Când am nevoie de relevee la o construcție sau un apartament?",
+        content: (
+            <>
             <h4>
               Releveele sunt necesare în mai multe situații pentru o construcție
               sau un apartament, printre care:
@@ -214,12 +219,13 @@ const Intrebari = () => {
               compartimentări și alte detalii esențiale pentru orice intervenție
               asupra imobilului.
             </p>
-          </details>
-        </div>
-
-        <div className={cx(styles.wrapper, "")}>
-          <details>
-            <summary>Când am nevoie de un plan de situație?</summary>
+            </>
+        )
+    },
+    {
+        summary: "Când am nevoie de un plan de situație?",
+        content: (
+            <>
             <h4>
               Un plan de situație este necesar în mai multe situații, printre
               care:
@@ -254,15 +260,13 @@ const Intrebari = () => {
               împrejurimilor, fiind esențial în procesele administrative și
               tehnice.
             </p>
-          </details>
-        </div>
-
-        <div className={cx(styles.wrapper, "")}>
-          <details>
-            <summary>
-              Când sunt necesare trasări ale axelor construcțiilor sau a
-              limitelor terenurilor?
-            </summary>
+            </>
+        )
+    },
+    {
+        summary: "Când sunt necesare trasări ale axelor construcțiilor sau a limitelor terenurilor?",
+        content: (
+            <>
             <h4>
               Trasările axelor construcțiilor și limitelor terenurilor sunt
               necesare în mai multe situații esențiale, printre care:
@@ -294,12 +298,13 @@ const Intrebari = () => {
               Aceste trasări asigură respectarea exactă a proiectului și
               evitarea erorilor costisitoare în execuția lucrărilor.
             </p>
-          </details>
-        </div>
-
-        <div className={cx(styles.wrapper, "")}>
-          <details>
-            <summary>Când am nevoie de măsurători 3D la construcții?</summary>
+            </>
+        )
+    },
+    {
+        summary: "Când am nevoie de măsurători 3D la construcții?",
+        content: (
+            <>
             <h4>
               Măsurătorile 3D la construcții sunt necesare în mai multe situații
               esențiale, printre care:
@@ -334,14 +339,13 @@ const Intrebari = () => {
               Aceste măsurători asigură precizie ridicată, reduc erorile și
               facilitează gestionarea eficientă a proiectelor.
             </p>
-          </details>
-        </div>
-
-        <div className={cx(styles.wrapper, "")}>
-          <details>
-            <summary>
-              Când este necesar crearea unui model 3D al terenului?
-            </summary>
+            </>
+        )
+    },
+    {
+        summary: "Când este necesar crearea unui model 3D al terenului?",
+        content: (
+            <>
             <h4>
               Crearea modelelor 3D ale terenurilor este necesară în diverse
               situații, printre care:
@@ -371,14 +375,13 @@ const Intrebari = () => {
                 impactului asupra mediului.
               </li>
             </ul>
-          </details>
-        </div>
-
-        <div className={cx(styles.wrapper, "")}>
-          <details>
-            <summary>
-              Când este necesar crearea unui plan cu curbe de nivel?
-            </summary>
+            </>
+        )
+    },
+    {
+        summary: "Când este necesar crearea unui plan cu curbe de nivel?",
+        content: (
+            <>
             <h4>
               Crearea curbelor de nivel este necesară în mai multe domenii, în
               special în geografie, inginerie și planificare urbană. Iată câteva
@@ -429,8 +432,28 @@ const Intrebari = () => {
               analiza și înțelegerea terenului, facilitând luarea unor decizii
               corecte în diverse proiecte de infrastructură și dezvoltare.
             </p>
-          </details>
-        </div>
+            </>
+        )
+    }
+  ];
+
+  return (
+    <div className={cx(styles.container, "mx-auto my-4")}>
+      <div className={styles.topWrapper}>
+        {questions.map((q, index) => (
+          <div className={cx(styles.wrapper, "")} key={index}>
+            <details
+              open={openIndex === index}
+              onClick={e => {
+                e.preventDefault();
+                handleToggle(index);
+              }}
+            >
+              <summary>{q.summary}</summary>
+              {q.content}
+            </details>
+          </div>
+        ))}
       </div>
     </div>
   );
